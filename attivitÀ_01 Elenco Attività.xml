@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+
+<pdf creator="GestionaleWeb" title="Elenco Attivit&#224;">
+
+<body format='A4' unit='mm' marginleft='15' marginbottom='0'>
+
+<!-- $BeginBlock form -->
+<page font="helvetica">
+
+</page>
+<!-- $EndBlock form -->
+
+<!-- $BeginBlock table -->
+<page font="helvetica" fontsize="6">
+
+	<image top="15" left="20" height="15" width="15" position="absolute" file="<!-- $Include var/templates/it/logo.txt -->" />
+	<paragraph top="15" left="38" fontsize="12" fontstyle="B" position="absolute" border="0" width="160" textalign="L"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --></paragraph>
+	<paragraph top="20" left="38" fontsize="12" fontstyle="B" position="absolute" border="0" width="160" textalign="L"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>
+	<paragraph top="25" left="38" fontcolor="red" fontsize="12" fontstyle="B" position="absolute" border="0" width="160" textalign="L">Elenco Attivit&#224;</paragraph>
+
+	<paragraph position="absolute" left="129" top="15" width="60" fontsize="6" lineheight="5" textalign="L" border="1">Totale Attivit&#224;: ${totale righe tabella}
+Note:
+
+</paragraph>
+
+<!-- $BeginBlock row1 -->
+	<paragraph position="absolute" left="0" top="35+0*28" width="7" lineheight="7" fontsize="6" textalign="C" border="1">${contatore riga tabella}</paragraph>
+	<paragraph position="relative" left="7" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">TITOLO:</paragraph>
+	<paragraph position="relative" left="35" top="-7" width="145" lineheight="7" fontsize="8" textalign="C" border="1" fontstyle="B">${titolo}</paragraph>
+
+	<paragraph position="absolute" left="0" top="42+0*28" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">TIPO ATTIVIT&#192;:</paragraph>
+	<paragraph position="relative" left="35" top="-7" width="145" lineheight="7" fontsize="8" textalign="C" border="1">${tipo attivitÀ}</paragraph>
+
+	<paragraph position="absolute" left="0" top="49+0*28" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">RICHIESTO DA:</paragraph>
+	<paragraph position="relative" left="35" top="-7" width="66" lineheight="7" fontsize="8" textalign="C" border="1">${richiesto da}</paragraph>
+	<paragraph position="relative" left="101" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">AUTORIZZATO DA:</paragraph>
+	<paragraph position="relative" left="129" top="-7" width="51" lineheight="7" fontsize="8" textalign="C" border="1">${autorizzato da}</paragraph>
+
+	<paragraph position="absolute" left="0" top="56+0*28" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">INIZIO ATTIVIT&#192;:</paragraph>
+	<paragraph position="relative" left="35" top="-7" width="66" lineheight="7" fontsize="8" textalign="C" border="1">${data e ora inizio}</paragraph>
+	<paragraph position="relative" left="101" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">FINE ATTIVIT&#192;:</paragraph>
+	<paragraph position="relative" left="129" top="-7" width="51" lineheight="7" fontsize="8" textalign="C" border="1">${data e ora fine}</paragraph>
+<!-- $EndBlock row1 -->
+
+<!-- $BeginBlock row2 -->
+	<paragraph position="absolute" left="0" top="35+1*28+3" width="7" lineheight="7" fontsize="6" textalign="C" border="1">${contatore riga tabella}</paragraph>
+	<paragraph position="relative" left="7" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">TITOLO:</paragraph>
+	<paragraph position="relative" left="35" top="-7" width="145" lineheight="7" fontsize="8" textalign="C" border="1" fontstyle="B">${titolo}</paragraph>
+
+	<paragraph position="absolute" left="0" top="42+1*28+3" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">TIPO ATTIVIT&#192;:</paragraph>
+	<paragraph position="relative" left="35" top="-7" width="145" lineheight="7" fontsize="8" textalign="C" border="1">${tipo attivitÀ}</paragraph>
+
+	<paragraph position="absolute" left="0" top="49+1*28+3" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">RICHIESTO DA:</paragraph>
+	<paragraph position="relative" left="35" top="-7" width="66" lineheight="7" fontsize="8" textalign="C" border="1">${RICHIESTO DA}</paragraph>
+	<paragraph position="relative" left="101" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">AUTORIZZATO DA:</paragraph>
+	<paragraph position="relative" left="129" top="-7" width="51" lineheight="7" fontsize="8" textalign="C" border="1">${autorizzato da}</paragraph>
+
+	<paragraph position="absolute" left="0" top="56+1*28+3" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">INIZIO ATTIVIT&#192;:</paragraph>
+	<paragraph position="relative" left="35" top="-7" width="66" lineheight="7" fontsize="8" textalign="C" border="1">${data e ora inizio}</paragraph>
+	<paragraph position="relative" left="101" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">FINE ATTIVIT&#192;:</paragraph>
+	<paragraph position="relative" left="129" top="-7" width="51" lineheight="7" fontsize="8" textalign="C" border="1">${data e ora fine}</paragraph>
+<!-- $EndBlock row2 -->
+
+<!-- $BeginBlock row3 -->
+	<paragraph position="absolute" left="0" top="35+2*28+3+3" width="7" lineheight="7" fontsize="6" textalign="C" border="1">${contatore riga tabella}</paragraph>
+	<paragraph position="relative" left="7" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">TITOLO:</paragraph>
+	<paragraph position="relative" left="35" top="-7" width="145" lineheight="7" fontsize="8" textalign="C" border="1" fontstyle="B">${titolo}</paragraph>
+
+	<paragraph position="absolute" left="0" top="42+2*28+3+3" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">TIPO ATTIVIT&#192;:</paragraph>
+	<paragraph position="relative" left="35" top="-7" width="145" lineheight="7" fontsize="8" textalign="C" border="1">${tipo attivitÀ}</paragraph>
+
+	<paragraph position="absolute" left="0" top="49+2*28+3+3" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">RICHIESTO DA:</paragraph>
+	<paragraph position="relative" left="35" top="-7" width="66" lineheight="7" fontsize="8" textalign="C" border="1">${RICHIESTO DA}</paragraph>
+	<paragraph position="relative" left="101" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">AUTORIZZATO DA:</paragraph>
+	<paragraph position="relative" left="129" top="-7" width="51" lineheight="7" fontsize="8" textalign="C" border="1">${autorizzato da}</paragraph>
+
+	<paragraph position="absolute" left="0" top="56+2*28+3+3" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">INIZIO ATTIVIT&#192;:</paragraph>
+	<paragraph position="relative" left="35" top="-7" width="66" lineheight="7" fontsize="8" textalign="C" border="1">${data e ora inizio}</paragraph>
+	<paragraph position="relative" left="101" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">FINE ATTIVIT&#192;:</paragraph>
+	<paragraph position="relative" left="129" top="-7" width="51" lineheight="7" fontsize="8" textalign="C" border="1">${data e ora fine}</paragraph>
+<!-- $EndBlock row3 -->
+
+<!-- $BeginBlock row4 -->
+	<paragraph position="absolute" left="0" top="35+3*28+3+3+3" width="7" lineheight="7" fontsize="6" textalign="C" border="1">${contatore riga tabella}</paragraph>
+	<paragraph position="relative" left="7" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">TITOLO:</paragraph>
+	<paragraph position="relative" left="35" top="-7" width="145" lineheight="7" fontsize="8" textalign="C" border="1" fontstyle="B">${titolo}</paragraph>
+
+	<paragraph position="absolute" left="0" top="42+3*28+3+3+3" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">TIPO ATTIVIT&#192;:</paragraph>
+	<paragraph position="relative" left="35" top="-7" width="145" lineheight="7" fontsize="8" textalign="C" border="1">${tipo attivitÀ}</paragraph>
+
+	<paragraph position="absolute" left="0" top="49+3*28+3+3+3" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">RICHIESTO DA:</paragraph>
+	<paragraph position="relative" left="35" top="-7" width="66" lineheight="7" fontsize="8" textalign="C" border="1">${RICHIESTO DA}</paragraph>
+	<paragraph position="relative" left="101" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">AUTORIZZATO DA:</paragraph>
+	<paragraph position="relative" left="129" top="-7" width="51" lineheight="7" fontsize="8" textalign="C" border="1">${autorizzato da}</paragraph>
+
+	<paragraph position="absolute" left="0" top="56+3*28+3+3+3" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">INIZIO ATTIVIT&#192;:</paragraph>
+	<paragraph position="relative" left="35" top="-7" width="66" lineheight="7" fontsize="8" textalign="C" border="1">${data e ora inizio}</paragraph>
+	<paragraph position="relative" left="101" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">FINE ATTIVIT&#192;:</paragraph>
+	<paragraph position="relative" left="129" top="-7" width="51" lineheight="7" fontsize="8" textalign="C" border="1">${data e ora fine}</paragraph>
+<!-- $EndBlock row4 -->
+
+<!-- $BeginBlock row5 -->
+	<paragraph position="absolute" left="0" top="35+4*28+3+3+3+3" width="7" lineheight="7" fontsize="6" textalign="C" border="1">${contatore riga tabella}</paragraph>
+	<paragraph position="relative" left="7" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">TITOLO:</paragraph>
+	<paragraph position="relative" left="35" top="-7" width="145" lineheight="7" fontsize="8" textalign="C" border="1" fontstyle="B">${titolo}</paragraph>
+
+	<paragraph position="absolute" left="0" top="42+4*28+3+3+3+3" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">TIPO ATTIVIT&#192;:</paragraph>
+	<paragraph position="relative" left="35" top="-7" width="145" lineheight="7" fontsize="8" textalign="C" border="1">${tipo attivitÀ}</paragraph>
+
+	<paragraph position="absolute" left="0" top="49+4*28+3+3+3+3" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">RICHIESTO DA:</paragraph>
+	<paragraph position="relative" left="35" top="-7" width="66" lineheight="7" fontsize="8" textalign="C" border="1">${RICHIESTO DA}</paragraph>
+	<paragraph position="relative" left="101" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">AUTORIZZATO DA:</paragraph>
+	<paragraph position="relative" left="129" top="-7" width="51" lineheight="7" fontsize="8" textalign="C" border="1">${autorizzato da}</paragraph>
+
+	<paragraph position="absolute" left="0" top="56+4*28+3+3+3+3" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">INIZIO ATTIVIT&#192;:</paragraph>
+	<paragraph position="relative" left="35" top="-7" width="66" lineheight="7" fontsize="8" textalign="C" border="1">${data e ora inizio}</paragraph>
+	<paragraph position="relative" left="101" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">FINE ATTIVIT&#192;:</paragraph>
+	<paragraph position="relative" left="129" top="-7" width="51" lineheight="7" fontsize="8" textalign="C" border="1">${data e ora fine}</paragraph>
+<!-- $EndBlock row5 -->
+
+<!-- $BeginBlock row6 -->
+	<paragraph position="absolute" left="0" top="35+5*28+3+3+3+3+3" width="7" lineheight="7" fontsize="6" textalign="C" border="1">${contatore riga tabella}</paragraph>
+	<paragraph position="relative" left="7" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">TITOLO:</paragraph>
+	<paragraph position="relative" left="35" top="-7" width="145" lineheight="7" fontsize="8" textalign="C" border="1" fontstyle="B">${titolo}</paragraph>
+
+	<paragraph position="absolute" left="0" top="42+5*28+3+3+3+3+3" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">TIPO ATTIVIT&#192;:</paragraph>
+	<paragraph position="relative" left="35" top="-7" width="145" lineheight="7" fontsize="8" textalign="C" border="1">${tipo attivitÀ}</paragraph>
+
+	<paragraph position="absolute" left="0" top="49+5*28+3+3+3+3+3" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">RICHIESTO DA:</paragraph>
+	<paragraph position="relative" left="35" top="-7" width="66" lineheight="7" fontsize="8" textalign="C" border="1">${RICHIESTO DA}</paragraph>
+	<paragraph position="relative" left="101" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">AUTORIZZATO DA:</paragraph>
+	<paragraph position="relative" left="129" top="-7" width="51" lineheight="7" fontsize="8" textalign="C" border="1">${autorizzato da}</paragraph>
+
+	<paragraph position="absolute" left="0" top="56+5*28+3+3+3+3+3" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">INIZIO ATTIVIT&#192;:</paragraph>
+	<paragraph position="relative" left="35" top="-7" width="66" lineheight="7" fontsize="8" textalign="C" border="1">${data e ora inizio}</paragraph>
+	<paragraph position="relative" left="101" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">FINE ATTIVIT&#192;:</paragraph>
+	<paragraph position="relative" left="129" top="-7" width="51" lineheight="7" fontsize="8" textalign="C" border="1">${data e ora fine}</paragraph>
+<!-- $EndBlock row6 -->
+
+<!-- $BeginBlock row7 -->
+	<paragraph position="absolute" left="0" top="35+6*28+3+3+3+3+3+3" width="7" lineheight="7" fontsize="6" textalign="C" border="1">${contatore riga tabella}</paragraph>
+	<paragraph position="relative" left="7" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">TITOLO:</paragraph>
+	<paragraph position="relative" left="35" top="-7" width="145" lineheight="7" fontsize="8" textalign="C" border="1" fontstyle="B">${titolo}</paragraph>
+
+	<paragraph position="absolute" left="0" top="42+6*28+3+3+3+3+3+3" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">TIPO ATTIVIT&#192;:</paragraph>
+	<paragraph position="relative" left="35" top="-7" width="145" lineheight="7" fontsize="8" textalign="C" border="1">${tipo attivitÀ}</paragraph>
+
+	<paragraph position="absolute" left="0" top="49+6*28+3+3+3+3+3+3" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">RICHIESTO DA:</paragraph>
+	<paragraph position="relative" left="35" top="-7" width="66" lineheight="7" fontsize="8" textalign="C" border="1">${RICHIESTO DA}</paragraph>
+	<paragraph position="relative" left="101" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">AUTORIZZATO DA:</paragraph>
+	<paragraph position="relative" left="129" top="-7" width="51" lineheight="7" fontsize="8" textalign="C" border="1">${autorizzato da}</paragraph>
+
+	<paragraph position="absolute" left="0" top="56+6*28+3+3+3+3+3+3" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">INIZIO ATTIVIT&#192;:</paragraph>
+	<paragraph position="relative" left="35" top="-7" width="66" lineheight="7" fontsize="8" textalign="C" border="1">${data e ora inizio}</paragraph>
+	<paragraph position="relative" left="101" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">FINE ATTIVIT&#192;:</paragraph>
+	<paragraph position="relative" left="129" top="-7" width="51" lineheight="7" fontsize="8" textalign="C" border="1">${data e ora fine}</paragraph>
+<!-- $EndBlock row7 -->
+
+<!-- $BeginBlock row8 -->
+	<paragraph position="absolute" left="0" top="35+7*28+3+3+3+3+3+3+3" width="7" lineheight="7" fontsize="6" textalign="C" border="1">${contatore riga tabella}</paragraph>
+	<paragraph position="relative" left="7" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">TITOLO:</paragraph>
+	<paragraph position="relative" left="35" top="-7" width="145" lineheight="7" fontsize="8" textalign="C" border="1" fontstyle="B">${titolo}</paragraph>
+
+	<paragraph position="absolute" left="0" top="42+7*28+3+3+3+3+3+3+3" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">TIPO ATTIVIT&#192;:</paragraph>
+	<paragraph position="relative" left="35" top="-7" width="145" lineheight="7" fontsize="8" textalign="C" border="1">${tipo attivitÀ}</paragraph>
+
+	<paragraph position="absolute" left="0" top="49+7*28+3+3+3+3+3+3+3" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">RICHIESTO DA:</paragraph>
+	<paragraph position="relative" left="35" top="-7" width="66" lineheight="7" fontsize="8" textalign="C" border="1">${RICHIESTO DA}</paragraph>
+	<paragraph position="relative" left="101" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">AUTORIZZATO DA:</paragraph>
+	<paragraph position="relative" left="129" top="-7" width="51" lineheight="7" fontsize="8" textalign="C" border="1">${autorizzato da}</paragraph>
+
+	<paragraph position="absolute" left="0" top="56+7*28+3+3+3+3+3+3+3" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">INIZIO ATTIVIT&#192;:</paragraph>
+	<paragraph position="relative" left="35" top="-7" width="66" lineheight="7" fontsize="8" textalign="C" border="1">${data e ora inizio}</paragraph>
+	<paragraph position="relative" left="101" top="-7" width="28" lineheight="7" fontsize="7" textalign="R" border="1">FINE ATTIVIT&#192;:</paragraph>
+	<paragraph position="relative" left="129" top="-7" width="51" lineheight="7" fontsize="8" textalign="C" border="1">${data e ora fine}</paragraph>
+<!-- $EndBlock row8 -->
+
+</page>
+<!-- $EndBlock table-->
+
+</body>
+</pdf>

@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='iso-8859-1'?><pdf creator="GestionaleWeb" title="Elenco Contabilit&#224; in Entrata">
+<body format='A4' unit='mm' marginleft='15' marginbottom='0'>
+<!-- $BeginBlock form -->
+<page font="helvetica"></page><!-- $EndBlock form -->
+<!-- $BeginBlock table --><page font="helvetica" fontsize="6">
+	<image top="15" left="20" height="15" width="15" position="absolute" file="<!-- $Include var/templates/it/logo.txt -->" />	<paragraph top="15" left="38" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --></paragraph>	<paragraph top="20" left="38" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>	<paragraph top="25" left="38" fontcolor="red" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L">Elenco Contabilit&#224; in Entrata</paragraph>
+	<paragraph position="absolute" left="135" top="15" width="60" fontsize="6" lineheight="5" textalign="L" border="1">Totale Contabilit&#224; in Entrata: ${totale righe tabella}
+Note:
+
+</paragraph>
+
+<!-- $BeginBlock row1 -->
+	<paragraph position="absolute" left="0" top="35+0*21" width="7" lineheight="7" fontsize="6" textalign="C" border="1">${contatore riga tabella}</paragraph>
+	<paragraph position="relative" left="7" top="-7" width="43" lineheight="7" fontsize="7" textalign="R" border="1">MITTENTE:</paragraph>
+	<paragraph position="relative" left="50" top="-7" width="130" lineheight="7" fontsize="8" textalign="C" border="1" fontstyle="B">${mittente}</paragraph>
+
+	<paragraph position="relative" left="0" top="0" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="43" lineheight="7" fontsize="7" textalign="R" border="1">TIPOLOGIA:</paragraph>
+	<paragraph position="relative" left="50" top="-7" width="130" lineheight="7" fontsize="8" textalign="C" border="1">${tipologia}</paragraph>
+
+	<paragraph position="relative" left="0" top="0" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="43" lineheight="7" fontsize="7" textalign="R" border="1">DATA:</paragraph>
+	<paragraph position="relative" left="50" top="-7" width="45" lineheight="7" fontsize="8" textalign="C" border="1">${data}</paragraph>
+	<paragraph position="relative" left="95" top="-7" width="40" lineheight="7" fontsize="7" textalign="R" border="1">IMPORTO:</paragraph>
+	<paragraph position="relative" left="135" top="-7" width="45" lineheight="7" fontsize="8" textalign="C" border="1">Euro ${importo}</paragraph>
+<!-- $EndBlock row1 -->
+
+<!-- $BeginBlock row2 -->
+	<paragraph position="relative" left="0" top="3" width="7" lineheight="7" fontsize="6" textalign="C" border="1">${contatore riga tabella}</paragraph>
+	<paragraph position="relative" left="7" top="-7" width="43" lineheight="7" fontsize="7" textalign="R" border="1">MITTENTE:</paragraph>
+	<paragraph position="relative" left="50" top="-7" width="130" lineheight="7" fontsize="8" textalign="C" border="1" fontstyle="B">${mittente}</paragraph>
+
+	<paragraph position="relative" left="0" top="0" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="43" lineheight="7" fontsize="7" textalign="R" border="1">TIPOLOGIA:</paragraph>
+	<paragraph position="relative" left="50" top="-7" width="130" lineheight="7" fontsize="8" textalign="C" border="1">${tipologia}</paragraph>
+
+	<paragraph position="relative" left="0" top="0" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="43" lineheight="7" fontsize="7" textalign="R" border="1">DATA:</paragraph>
+	<paragraph position="relative" left="50" top="-7" width="45" lineheight="7" fontsize="8" textalign="C" border="1">${data}</paragraph>
+	<paragraph position="relative" left="95" top="-7" width="40" lineheight="7" fontsize="7" textalign="R" border="1">IMPORTO:</paragraph>
+	<paragraph position="relative" left="135" top="-7" width="45" lineheight="7" fontsize="8" textalign="C" border="1">Euro ${importo}</paragraph>
+<!-- $EndBlock row2 -->
+
+<!-- $BeginBlock row3 -->
+	<paragraph position="relative" left="0" top="3" width="7" lineheight="7" fontsize="6" textalign="C" border="1">${contatore riga tabella}</paragraph>
+	<paragraph position="relative" left="7" top="-7" width="43" lineheight="7" fontsize="7" textalign="R" border="1">MITTENTE:</paragraph>
+	<paragraph position="relative" left="50" top="-7" width="130" lineheight="7" fontsize="8" textalign="C" border="1" fontstyle="B">${mittente}</paragraph>
+
+	<paragraph position="relative" left="0" top="0" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="43" lineheight="7" fontsize="7" textalign="R" border="1">TIPOLOGIA:</paragraph>
+	<paragraph position="relative" left="50" top="-7" width="130" lineheight="7" fontsize="8" textalign="C" border="1">${tipologia}</paragraph>
+
+	<paragraph position="relative" left="0" top="0" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="43" lineheight="7" fontsize="7" textalign="R" border="1">DATA:</paragraph>
+	<paragraph position="relative" left="50" top="-7" width="45" lineheight="7" fontsize="8" textalign="C" border="1">${data}</paragraph>
+	<paragraph position="relative" left="95" top="-7" width="40" lineheight="7" fontsize="7" textalign="R" border="1">IMPORTO:</paragraph>
+	<paragraph position="relative" left="135" top="-7" width="45" lineheight="7" fontsize="8" textalign="C" border="1">Euro ${importo}</paragraph>
+<!-- $EndBlock row3 -->
+
+<!-- $BeginBlock row4 -->
+	<paragraph position="relative" left="0" top="3" width="7" lineheight="7" fontsize="6" textalign="C" border="1">${contatore riga tabella}</paragraph>
+	<paragraph position="relative" left="7" top="-7" width="43" lineheight="7" fontsize="7" textalign="R" border="1">MITTENTE:</paragraph>
+	<paragraph position="relative" left="50" top="-7" width="130" lineheight="7" fontsize="8" textalign="C" border="1" fontstyle="B">${mittente}</paragraph>
+
+	<paragraph position="relative" left="0" top="0" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="43" lineheight="7" fontsize="7" textalign="R" border="1">TIPOLOGIA:</paragraph>
+	<paragraph position="relative" left="50" top="-7" width="130" lineheight="7" fontsize="8" textalign="C" border="1">${tipologia}</paragraph>
+
+	<paragraph position="relative" left="0" top="0" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="43" lineheight="7" fontsize="7" textalign="R" border="1">DATA:</paragraph>
+	<paragraph position="relative" left="50" top="-7" width="45" lineheight="7" fontsize="8" textalign="C" border="1">${data}</paragraph>
+	<paragraph position="relative" left="95" top="-7" width="40" lineheight="7" fontsize="7" textalign="R" border="1">IMPORTO:</paragraph>
+	<paragraph position="relative" left="135" top="-7" width="45" lineheight="7" fontsize="8" textalign="C" border="1">Euro ${importo}</paragraph>
+<!-- $EndBlock row4 -->
+
+<!-- $BeginBlock row5 -->
+	<paragraph position="relative" left="0" top="3" width="7" lineheight="7" fontsize="6" textalign="C" border="1">${contatore riga tabella}</paragraph>
+	<paragraph position="relative" left="7" top="-7" width="43" lineheight="7" fontsize="7" textalign="R" border="1">MITTENTE:</paragraph>
+	<paragraph position="relative" left="50" top="-7" width="130" lineheight="7" fontsize="8" textalign="C" border="1" fontstyle="B">${mittente}</paragraph>
+
+	<paragraph position="relative" left="0" top="0" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="43" lineheight="7" fontsize="7" textalign="R" border="1">TIPOLOGIA:</paragraph>
+	<paragraph position="relative" left="50" top="-7" width="130" lineheight="7" fontsize="8" textalign="C" border="1">${tipologia}</paragraph>
+
+	<paragraph position="relative" left="0" top="0" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="43" lineheight="7" fontsize="7" textalign="R" border="1">DATA:</paragraph>
+	<paragraph position="relative" left="50" top="-7" width="45" lineheight="7" fontsize="8" textalign="C" border="1">${data}</paragraph>
+	<paragraph position="relative" left="95" top="-7" width="40" lineheight="7" fontsize="7" textalign="R" border="1">IMPORTO:</paragraph>
+	<paragraph position="relative" left="135" top="-7" width="45" lineheight="7" fontsize="8" textalign="C" border="1">Euro ${importo}</paragraph>
+<!-- $EndBlock row5 -->
+
+<!-- $BeginBlock row6 -->
+	<paragraph position="relative" left="0" top="3" width="7" lineheight="7" fontsize="6" textalign="C" border="1">${contatore riga tabella}</paragraph>
+	<paragraph position="relative" left="7" top="-7" width="43" lineheight="7" fontsize="7" textalign="R" border="1">MITTENTE:</paragraph>
+	<paragraph position="relative" left="50" top="-7" width="130" lineheight="7" fontsize="8" textalign="C" border="1" fontstyle="B">${mittente}</paragraph>
+
+	<paragraph position="relative" left="0" top="0" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="43" lineheight="7" fontsize="7" textalign="R" border="1">TIPOLOGIA:</paragraph>
+	<paragraph position="relative" left="50" top="-7" width="130" lineheight="7" fontsize="8" textalign="C" border="1">${tipologia}</paragraph>
+
+	<paragraph position="relative" left="0" top="0" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="43" lineheight="7" fontsize="7" textalign="R" border="1">DATA:</paragraph>
+	<paragraph position="relative" left="50" top="-7" width="45" lineheight="7" fontsize="8" textalign="C" border="1">${data}</paragraph>
+	<paragraph position="relative" left="95" top="-7" width="40" lineheight="7" fontsize="7" textalign="R" border="1">IMPORTO:</paragraph>
+	<paragraph position="relative" left="135" top="-7" width="45" lineheight="7" fontsize="8" textalign="C" border="1">Euro ${importo}</paragraph>
+<!-- $EndBlock row6 -->
+
+<!-- $BeginBlock row7 -->
+	<paragraph position="relative" left="0" top="3" width="7" lineheight="7" fontsize="6" textalign="C" border="1">${contatore riga tabella}</paragraph>
+	<paragraph position="relative" left="7" top="-7" width="43" lineheight="7" fontsize="7" textalign="R" border="1">MITTENTE:</paragraph>
+	<paragraph position="relative" left="50" top="-7" width="130" lineheight="7" fontsize="8" textalign="C" border="1" fontstyle="B">${mittente}</paragraph>
+
+	<paragraph position="relative" left="0" top="0" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="43" lineheight="7" fontsize="7" textalign="R" border="1">TIPOLOGIA:</paragraph>
+	<paragraph position="relative" left="50" top="-7" width="130" lineheight="7" fontsize="8" textalign="C" border="1">${tipologia}</paragraph>
+
+	<paragraph position="relative" left="0" top="0" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="43" lineheight="7" fontsize="7" textalign="R" border="1">DATA:</paragraph>
+	<paragraph position="relative" left="50" top="-7" width="45" lineheight="7" fontsize="8" textalign="C" border="1">${data}</paragraph>
+	<paragraph position="relative" left="95" top="-7" width="40" lineheight="7" fontsize="7" textalign="R" border="1">IMPORTO:</paragraph>
+	<paragraph position="relative" left="135" top="-7" width="45" lineheight="7" fontsize="8" textalign="C" border="1">Euro ${importo}</paragraph>
+<!-- $EndBlock row7 -->
+
+<!-- $BeginBlock row8 -->
+	<paragraph position="relative" left="0" top="3" width="7" lineheight="7" fontsize="6" textalign="C" border="1">${contatore riga tabella}</paragraph>
+	<paragraph position="relative" left="7" top="-7" width="43" lineheight="7" fontsize="7" textalign="R" border="1">MITTENTE:</paragraph>
+	<paragraph position="relative" left="50" top="-7" width="130" lineheight="7" fontsize="8" textalign="C" border="1" fontstyle="B">${mittente}</paragraph>
+
+	<paragraph position="relative" left="0" top="0" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="43" lineheight="7" fontsize="7" textalign="R" border="1">TIPOLOGIA:</paragraph>
+	<paragraph position="relative" left="50" top="-7" width="130" lineheight="7" fontsize="8" textalign="C" border="1">${tipologia}</paragraph>
+
+	<paragraph position="relative" left="0" top="0" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="43" lineheight="7" fontsize="7" textalign="R" border="1">DATA:</paragraph>
+	<paragraph position="relative" left="50" top="-7" width="45" lineheight="7" fontsize="8" textalign="C" border="1">${data}</paragraph>
+	<paragraph position="relative" left="95" top="-7" width="40" lineheight="7" fontsize="7" textalign="R" border="1">IMPORTO:</paragraph>
+	<paragraph position="relative" left="135" top="-7" width="45" lineheight="7" fontsize="8" textalign="C" border="1">Euro ${importo}</paragraph>
+<!-- $EndBlock row8 -->
+
+<!-- $BeginBlock row9 -->
+	<paragraph position="relative" left="0" top="3" width="7" lineheight="7" fontsize="6" textalign="C" border="1">${contatore riga tabella}</paragraph>
+	<paragraph position="relative" left="7" top="-7" width="43" lineheight="7" fontsize="7" textalign="R" border="1">MITTENTE:</paragraph>
+	<paragraph position="relative" left="50" top="-7" width="130" lineheight="7" fontsize="8" textalign="C" border="1" fontstyle="B">${mittente}</paragraph>
+
+	<paragraph position="relative" left="0" top="0" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="43" lineheight="7" fontsize="7" textalign="R" border="1">TIPOLOGIA:</paragraph>
+	<paragraph position="relative" left="50" top="-7" width="130" lineheight="7" fontsize="8" textalign="C" border="1">${tipologia}</paragraph>
+
+	<paragraph position="relative" left="0" top="0" width="7" lineheight="7" fontsize="6" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="7" top="-7" width="43" lineheight="7" fontsize="7" textalign="R" border="1">DATA:</paragraph>
+	<paragraph position="relative" left="50" top="-7" width="45" lineheight="7" fontsize="8" textalign="C" border="1">${data}</paragraph>
+	<paragraph position="relative" left="95" top="-7" width="40" lineheight="7" fontsize="7" textalign="R" border="1">IMPORTO:</paragraph>
+	<paragraph position="relative" left="135" top="-7" width="45" lineheight="7" fontsize="8" textalign="C" border="1">Euro ${importo}</paragraph>
+<!-- $EndBlock row9 -->
+</page>
+<!-- $EndBlock table-->
+
+</body>
+</pdf>

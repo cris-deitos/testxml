@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+
+<pdf creator="GestionaleWeb" title="Scheda Attrezzatura">
+<body format='A4' unit='mm' marginleft='15' marginbottom='0'>
+
+<!-- 85x54 -->
+<!-- $BeginBlock form -->
+<page>
+
+	<image top="15" left="20" height="15" width="15" position="absolute" file="<!-- $Include var/templates/it/logo.txt -->" />
+	<paragraph top="15" left="38" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --></paragraph>
+	<paragraph top="20" left="38" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>
+	<paragraph top="25" left="38" fontcolor="red" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L">Scheda Attrezzatura</paragraph>
+	<paragraph position="absolute" top="40" left="20" width="170" fontsize="12" fontstyle="B" border="0" textalign="C">SCHEDA ATTREZZATURA</paragraph>
+
+	<paragraph position="relative" top="10" left="-205" width="170" fontsize="10" fontstyle="B" border="0" textalign="C">ID ATTREZZATURA:</paragraph>
+ 	<paragraph position="relative" top="2" left="-205" width="170" fontsize="10" border="1" textalign="C">${id}</paragraph>
+	<paragraph position="relative" top="5" left="-205" width="170" fontsize="10" fontstyle="B" border="0" textalign="C">MARCA:</paragraph>
+  	<paragraph position="relative" top="2" left="-205" width="170" fontsize="10" border="1" textalign="C">${marca}</paragraph>
+	<paragraph position="relative" top="5" left="-205" width="170" fontsize="10" fontstyle="B" border="0" textalign="C">MODELLO:</paragraph>
+  	<paragraph position="relative" top="2" left="-205" width="170" fontsize="10" border="1" textalign="C">${modello}</paragraph>
+	<paragraph position="relative" top="5" left="-205" width="170" fontsize="10" fontstyle="B" border="0" textalign="C">TIPOLOGIA:</paragraph>
+  	<paragraph position="relative" top="2" left="-205" width="170" fontsize="10" border="1" textalign="C">${tipologia}</paragraph>
+	<paragraph position="relative" top="5" left="-205" width="170" fontsize="10" fontstyle="B" border="0" textalign="C">ATTREZZATURA:</paragraph>
+  	<paragraph position="relative" top="2" left="-205" width="170" fontsize="10" border="1" textalign="C">${attrezzatura}</paragraph>
+	<paragraph position="relative" top="5" left="-205" width="170" fontsize="10" fontstyle="B" border="0" textalign="C">UNIT&#192; DI MISURA:</paragraph>
+  	<paragraph position="relative" top="2" left="-205" width="170" fontsize="10" border="1" textalign="C">${u.d.m.}</paragraph>
+	<paragraph position="relative" top="5" left="-205" width="170" fontsize="10" fontstyle="B" border="0" textalign="C">QUANTIT&#192;:</paragraph>
+  	<paragraph position="relative" top="2" left="-205" width="170" fontsize="10" border="1" textalign="C">${quantita'}</paragraph>
+	<paragraph position="relative" top="5" left="-205" width="170" fontsize="10" fontstyle="B" border="0" textalign="C">MATRICOLA / SERIALE:</paragraph>
+  	<paragraph position="relative" top="2" left="-205" width="170" fontsize="10" border="1" textalign="C">${matricola / seriale}</paragraph>
+	<paragraph position="relative" top="5" left="-205" width="170" fontsize="10" fontstyle="B" border="0" textalign="C">PRIMARIA:</paragraph>
+  	<paragraph position="relative" top="2" left="-205" width="170" fontsize="10" border="1" textalign="C">${primaria}</paragraph>
+	
+	<paragraph position="relative" top="10" left="-205" width="170" fontsize="10" fontstyle="B" border="0" textalign="C">CARATTERISTICHE:</paragraph>
+  	<paragraph position="relative" top="2" left="-205" width="170" fontsize="8" border="1" textalign="L">${caratteristiche}</paragraph>
+	
+	<paragraph position="relative" top="5" left="-205" width="170" fontsize="10" fontstyle="B" border="0" textalign="C">NOTE:</paragraph>
+  	<paragraph position="relative" top="2" left="-205" width="170" fontsize="8" border="1" textalign="L">${note}</paragraph>
+	
+	<barcode y="272" x="20" height="5" width=".3" position="absolute" barcode="${matricola / seriale}" norm="code39extend" />		
+	
+	<paragraph position="absolute" top="277" left="15" width="180" lineheight="5" fontsize="6" textalign="R" border="0">Data e Ora Stampa: ${data/ora applicazione modello}</paragraph>	
+
+</page>
+
+<!-- $EndBlock form -->
+<!-- $BeginBlock table -->
+<page fontsize="10">
+<!-- $BeginBlock row1 -->
+
+
+	<image top="15" left="20" height="15" width="15" position="absolute" file="<!-- $Include var/templates/it/logo.txt -->" />
+	<paragraph top="15" left="38" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --></paragraph>
+	<paragraph top="20" left="38" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>
+	<paragraph top="25" left="38" fontcolor="red" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L">Scheda Attrezzatura</paragraph>
+	<paragraph position="absolute" top="40" left="20" width="170" fontsize="12" fontstyle="B" border="0" textalign="C">SCHEDA ATTREZZATURA</paragraph>
+	
+	
+	<paragraph position="relative" top="10" left="-205" width="170" fontsize="10" fontstyle="B" border="0" textalign="C">ID ATTREZZATURA:</paragraph>
+ 	<paragraph position="relative" top="2" left="-205" width="170" fontsize="10" border="1" textalign="C">${id}</paragraph>
+	<paragraph position="relative" top="5" left="-205" width="170" fontsize="10" fontstyle="B" border="0" textalign="C">MARCA:</paragraph>
+  	<paragraph position="relative" top="2" left="-205" width="170" fontsize="10" border="1" textalign="C">${marca}</paragraph>
+	<paragraph position="relative" top="5" left="-205" width="170" fontsize="10" fontstyle="B" border="0" textalign="C">MODELLO:</paragraph>
+  	<paragraph position="relative" top="2" left="-205" width="170" fontsize="10" border="1" textalign="C">${modello}</paragraph>
+	<paragraph position="relative" top="5" left="-205" width="170" fontsize="10" fontstyle="B" border="0" textalign="C">TIPOLOGIA:</paragraph>
+  	<paragraph position="relative" top="2" left="-205" width="170" fontsize="10" border="1" textalign="C">${tipologia}</paragraph>
+	<paragraph position="relative" top="5" left="-205" width="170" fontsize="10" fontstyle="B" border="0" textalign="C">ATTREZZATURA:</paragraph>
+  	<paragraph position="relative" top="2" left="-205" width="170" fontsize="10" border="1" textalign="C">${attrezzatura}</paragraph>
+	<paragraph position="relative" top="5" left="-205" width="170" fontsize="10" fontstyle="B" border="0" textalign="C">UNIT&#192; DI MISURA:</paragraph>
+  	<paragraph position="relative" top="2" left="-205" width="170" fontsize="10" border="1" textalign="C">${u.d.m.}</paragraph>
+	<paragraph position="relative" top="5" left="-205" width="170" fontsize="10" fontstyle="B" border="0" textalign="C">QUANTIT&#192;:</paragraph>
+  	<paragraph position="relative" top="2" left="-205" width="170" fontsize="10" border="1" textalign="C">${quantita'}</paragraph>
+	<paragraph position="relative" top="5" left="-205" width="170" fontsize="10" fontstyle="B" border="0" textalign="C">MATRICOLA / SERIALE:</paragraph>
+  	<paragraph position="relative" top="2" left="-205" width="170" fontsize="10" border="1" textalign="C">${matricola / seriale}</paragraph>
+	<paragraph position="relative" top="5" left="-205" width="170" fontsize="10" fontstyle="B" border="0" textalign="C">PRIMARIA:</paragraph>
+  	<paragraph position="relative" top="2" left="-205" width="170" fontsize="10" border="1" textalign="C">${primaria}</paragraph>
+	
+	<paragraph position="relative" top="10" left="-205" width="170" fontsize="10" fontstyle="B" border="0" textalign="C">CARATTERISTICHE:</paragraph>
+  	<paragraph position="relative" top="2" left="-205" width="170" fontsize="8" border="1" textalign="L">${caratteristiche}</paragraph>
+	
+	<paragraph position="relative" top="5" left="-205" width="170" fontsize="10" fontstyle="B" border="0" textalign="C">NOTE:</paragraph>
+  	<paragraph position="relative" top="2" left="-205" width="170" fontsize="8" border="1" textalign="L">${note}</paragraph>
+	
+	<barcode y="260" x="20" height="5" width=".3" position="absolute" barcode="${matricola / seriale}" norm="code39extend" />	
+	
+	<paragraph position="absolute" top="260" left="15" width="180" lineheight="5" fontsize="6" textalign="R" border="0">
+Data e Ora Stampa: ${data/ora applicazione modello}</paragraph>
+	
+
+<!-- $EndBlock row1 -->
+
+<paragraph position="absolute" left="0" width="180" top="271" lineheight="5" fontsize="8" textalign="C" border="0" fontstyle="B"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --> <!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --> - Organizzazione di Volontariato</paragraph>
+
+<paragraph position="absolute" left="0" width="180" top="276" lineheight="4" fontsize="7" textalign="C" border="0">Codice Fiscale: <!-- $Include var/templates/it/03-Codice_Fiscale.txt -->
+<!-- $Include var/templates/it/04-Indirizzo_1.txt --> - <!-- $Include var/templates/it/05-Indirizzo_2.txt -->
+Sito Web: <!-- $Include var/templates/it/07-Indirizzo_Web.txt --> - Indirizzo E-Mail: <!-- $Include var/templates/it/08-Indirizzo_eMail.txt --></paragraph>
+
+</page>
+<!-- $EndBlock table-->
+
+</body>
+</pdf>

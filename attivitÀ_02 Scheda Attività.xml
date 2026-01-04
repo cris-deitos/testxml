@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+
+<pdf creator="GestionaleWeb" title="Scheda Intervento">
+<body format='A4' unit='mm' marginleft='15' marginbottom='0'>
+
+<!-- 85x54 -->
+<!-- $BeginBlock form -->
+<page>
+		<image top="15" left="20" height="15" width="15" position="absolute" file="<!-- $Include var/templates/it/logo.txt -->" />
+	<paragraph top="15" left="38" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --></paragraph>
+	<paragraph top="20" left="38" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>
+	<paragraph top="25" left="38" fontcolor="red" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L">Scheda Attivit&#224;</paragraph>
+
+	<paragraph position="absolute" top="40" left="20" width="170" fontsize="12" fontstyle="B" border="0" textalign="C">REPORT ATTIVIT&#192;</paragraph>
+
+	<paragraph position="absolute" top="47" left="20" width="170" fontsize="13" fontstyle="B" border="0" textalign="C">${titolo}</paragraph>
+	
+	<paragraph position="absolute" top="62" left="20" width="52" fontsize="9" fontstyle="B" border="0" textalign="L">DATA E ORA INIZIO ATTIVIT&#192;:</paragraph>
+ 	<paragraph position="absolute" top="62" left="72" width="31" fontsize="9" border="1" textalign="C">${data e ora inizio}</paragraph>
+	<paragraph position="absolute" top="62" left="101" width="58" fontsize="9" fontstyle="B" border="0" textalign="C">DATA E ORA FINE ATTIVIT&#192;:</paragraph>
+  	<paragraph position="absolute" top="62" left="159" width="31" fontsize="9" border="1" textalign="C">${data e ora fine}</paragraph>
+	
+	<paragraph position="absolute" top="69" left="20" width="28" fontsize="9" fontstyle="B" border="0" textalign="L">RICHIESTO DA:</paragraph>
+ 	<paragraph position="absolute" top="69" left="48" width="59" fontsize="9" border="1" textalign="C">${richiesto da}</paragraph>
+	<paragraph position="absolute" top="69" left="107" width="33" fontsize="9" fontstyle="B" border="0" textalign="C">AUTORIZZATO DA:</paragraph>
+  	<paragraph position="absolute" top="69" left="140" width="50" fontsize="9" border="1" textalign="C">${autorizzato da}</paragraph>
+	
+	<paragraph position="absolute" top="76" left="20" width="50" fontsize="9" fontstyle="B" border="0" textalign="L">TIPO DI ATTIVIT&#192;:</paragraph>
+ 	<paragraph position="absolute" top="76" left="70" width="120" fontsize="9" border="1" textalign="C">${tipo attivitÀ}</paragraph>
+
+
+	<paragraph position="absolute" top="91" left="20" width="26" fontsize="9" fontstyle="B" border="0" textalign="L">AUTISTA:</paragraph>
+ 	<paragraph position="absolute" top="91" left="46" width="55" fontsize="9" border="1" textalign="C">${autista}</paragraph>
+	<paragraph position="absolute" top="91" left="101" width="33" fontsize="9" fontstyle="B" border="0" textalign="C">CAPOSQUADRA:</paragraph>
+  	<paragraph position="absolute" top="91" left="134" width="56" fontsize="9" border="1" textalign="C">${caposquadra}</paragraph>	
+	
+	<paragraph position="absolute" top="98" left="20" width="26" fontsize="9" fontstyle="B" border="0" textalign="L">VOLONTARI:</paragraph>
+  	<paragraph position="absolute" top="98" left="46" width="144" fontsize="9" border="1" textalign="L">${volontari}</paragraph>		
+	
+	<paragraph position="relative" top="10" left="-205" width="170" fontsize="9" fontstyle="B" border="0" textalign="C">DESCRIZIONE DELL'ATTIVIT&#192;</paragraph>
+ 	<paragraph position="relative" top="2" left="-205" width="170" fontsize="9" border="1" textalign="L">${descrizione}</paragraph>	
+
+	<paragraph position="absolute" top="260" left="15" width="180" lineheight="5" fontsize="7" textalign="R" border="0">
+Scheda Intervento Num.: ${ID}
+</paragraph>
+
+</page>
+
+<!-- $EndBlock form -->
+<!-- $BeginBlock table -->
+<page fontsize="10">
+<!-- $BeginBlock row1 -->
+
+
+		<image top="15" left="20" height="15" width="15" position="absolute" file="<!-- $Include var/templates/it/logo.txt -->" />
+	<paragraph top="15" left="38" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --></paragraph>
+	<paragraph top="20" left="38" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>
+	<paragraph top="25" left="38" fontcolor="red" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L">Scheda Attivit&#224;</paragraph>
+
+	<paragraph position="absolute" top="40" left="20" width="170" fontsize="12" fontstyle="B" border="0" textalign="C">REPORT ATTIVIT&#192;</paragraph>
+
+	<paragraph position="absolute" top="47" left="20" width="170" fontsize="13" fontstyle="B" border="0" textalign="C">${titolo}</paragraph>
+	
+	<paragraph position="absolute" top="62" left="20" width="52" fontsize="9" fontstyle="B" border="0" textalign="L">DATA E ORA INIZIO ATTIVIT&#192;:</paragraph>
+ 	<paragraph position="absolute" top="62" left="72" width="31" fontsize="9" border="1" textalign="C">${data e ora inizio}</paragraph>
+	<paragraph position="absolute" top="62" left="101" width="58" fontsize="9" fontstyle="B" border="0" textalign="C">DATA E ORA FINE ATTIVIT&#192;:</paragraph>
+  	<paragraph position="absolute" top="62" left="159" width="31" fontsize="9" border="1" textalign="C">${data e ora fine}</paragraph>
+	
+	<paragraph position="absolute" top="69" left="20" width="28" fontsize="9" fontstyle="B" border="0" textalign="L">RICHIESTO DA:</paragraph>
+ 	<paragraph position="absolute" top="69" left="48" width="59" fontsize="9" border="1" textalign="C">${richiesto da}</paragraph>
+	<paragraph position="absolute" top="69" left="107" width="33" fontsize="9" fontstyle="B" border="0" textalign="C">AUTORIZZATO DA:</paragraph>
+  	<paragraph position="absolute" top="69" left="140" width="50" fontsize="9" border="1" textalign="C">${autorizzato da}</paragraph>
+	
+	<paragraph position="absolute" top="76" left="20" width="50" fontsize="9" fontstyle="B" border="0" textalign="L">TIPO DI ATTIVIT&#192;:</paragraph>
+ 	<paragraph position="absolute" top="76" left="70" width="120" fontsize="9" border="1" textalign="C">${tipo attivitÀ}</paragraph>
+
+
+	<paragraph position="absolute" top="91" left="20" width="26" fontsize="9" fontstyle="B" border="0" textalign="L">AUTISTA:</paragraph>
+ 	<paragraph position="absolute" top="91" left="46" width="55" fontsize="9" border="1" textalign="C">${autista}</paragraph>
+	<paragraph position="absolute" top="91" left="101" width="33" fontsize="9" fontstyle="B" border="0" textalign="C">CAPOSQUADRA:</paragraph>
+  	<paragraph position="absolute" top="91" left="134" width="56" fontsize="9" border="1" textalign="C">${caposquadra}</paragraph>	
+	
+	<paragraph position="absolute" top="98" left="20" width="26" fontsize="9" fontstyle="B" border="0" textalign="L">VOLONTARI:</paragraph>
+  	<paragraph position="absolute" top="98" left="46" width="144" fontsize="9" border="1" textalign="L">${volontari}</paragraph>		
+	
+	<paragraph position="relative" top="10" left="-205" width="170" fontsize="9" fontstyle="B" border="0" textalign="C">DESCRIZIONE DELL'ATTIVIT&#192;</paragraph>
+ 	<paragraph position="relative" top="2" left="-205" width="170" fontsize="9" border="1" textalign="L">${descrizione}</paragraph>	
+
+	<paragraph position="absolute" top="260" left="15" width="180" lineheight="5" fontsize="7" textalign="R" border="0">
+Scheda Intervento Num.: ${ID}
+</paragraph>	
+
+	
+<!-- $EndBlock row1 -->
+
+<paragraph position="absolute" left="0" width="180" top="271" lineheight="5" fontsize="8" textalign="C" border="0" fontstyle="B"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --> <!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --> - Organizzazione di Volontariato</paragraph>
+
+<paragraph position="absolute" left="0" width="180" top="276" lineheight="4" fontsize="7" textalign="C" border="0">Codice Fiscale: <!-- $Include var/templates/it/03-Codice_Fiscale.txt -->
+<!-- $Include var/templates/it/04-Indirizzo_1.txt --> - <!-- $Include var/templates/it/05-Indirizzo_2.txt -->
+Sito Web: <!-- $Include var/templates/it/07-Indirizzo_Web.txt --> - Indirizzo E-Mail: <!-- $Include var/templates/it/08-Indirizzo_eMail.txt --></paragraph>
+
+</page>
+<!-- $EndBlock table-->
+
+</body>
+</pdf>

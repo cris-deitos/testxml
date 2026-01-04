@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+
+<pdf creator="GestionaleWeb" title="Scheda Verbale">
+<body format='A4' unit='mm' marginleft='10' marginbottom='9'>
+
+<!-- 85x54 -->
+<!-- $BeginBlock form -->
+<page>
+	<image top="10" left="15" height="15" width="15" position="absolute" file="<!-- $Include var/templates/it/logo.txt -->" />	
+	<paragraph top="10" left="38" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --></paragraph>	
+	<paragraph top="15" left="38" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>	
+	<paragraph top="20" left="38" fontcolor="red" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L">Scheda Verbale</paragraph>	
+	<paragraph position="absolute" top="30" left="20" width="170" fontsize="11" fontstyle="B" border="0" textalign="C">VERBALE NUMERO ${ID} DEL ${data verbale}</paragraph>	
+	<paragraph position="absolute" top="37" left="20" width="180" fontsize="12" fontstyle="B" border="0" textalign="C">${tipologia}</paragraph>	
+	
+	<paragraph position="relative" top="5" left="-205" width="180" fontsize="9" border="0" textalign="L">In data ${data verbale}, alle ore ${ora inizio}, presso la ${sede riunione} ha avuto luogo quanto riportato in intestazione.</paragraph>	
+	<paragraph position="relative" top="2" left="-205" width="180" fontsize="9" border="0" textalign="L">Assume la presidenza dell'assemblea, In ottemperanza al vigente Statuto Sociale, il volontario ${presieduta da}, verbalizza ${verbalizzante}. Il presidente, costatato che l'assemblea e' stata regolarmente convocata mediante avviso spedito ai soci contenente l'o.d.g., l'ora ed il luogo, e preso atto che sono presenti i seguenti soci: ${soci presenti}.</paragraph>	
+	<paragraph position="relative" top="2" left="-205" width="180" fontsize="9" border="0" textalign="L">Dichiara che essa deve ritenersi regolarmente costituita nel rispetto dello statuto sociale per la validita' dell'assemblea, per discutere e deliberare sul seguente Ordine del Giorno:</paragraph>  	
+	<paragraph position="relative" top="0" left="-205" width="180" fontsize="9" border="0" textalign="L">${ordine del giorno}</paragraph>  	
+	<paragraph position="relative" top="2" left="-205" width="180" fontsize="9" border="0" textalign="L">${testo}</paragraph>	
+	<paragraph position="relative" top="0" left="-205" width="180" fontsize="9" border="0" textalign="L">Null'altro essendovi da discutere e deliberare e nessuno chiedendo la parola, il presidente dichiara sciolta l'assemblea alle ore ${ora fine riunione} previa stesura, lettura ed approvazione del presente verbale.</paragraph>		
+	<paragraph position="absolute" top="260" left="18" width="40" font="helvetica" fontsize="8" fontcolor="black" border="0" textalign="C" height="7">IL VERBALIZZANTE</paragraph>	
+	<paragraph position="absolute" top="260" left="150" width="40" font="helvetica" fontsize="8" fontcolor="black" border="0" textalign="C" height="7">IL PRESIDENTE</paragraph>	
+	<paragraph position="absolute" top="263" left="18" width="40" font="helvetica" fontsize="8" fontcolor="black" border="0" textalign="C" height="7">${verbalizzante}</paragraph>	
+	<paragraph position="absolute" top="263" left="150" width="40" font="helvetica" fontsize="8" fontcolor="black" border="0" textalign="C" height="7">${presieduta da}</paragraph><paragraph position="absolute" left="0" width="180" top="270" lineheight="5" fontsize="8" textalign="C" border="0" fontstyle="B"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --> <!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --> - Organizzazione di Volontariato</paragraph>
+	<paragraph position="absolute" left="0" width="180" top="275" lineheight="4" fontsize="7" textalign="C" border="0">Codice Fiscale: <!-- $Include var/templates/it/03-Codice_Fiscale.txt --><!-- $Include var/templates/it/04-Indirizzo_1.txt --> - <!-- $Include var/templates/it/05-Indirizzo_2.txt -->Sito Web: <!-- $Include var/templates/it/07-Indirizzo_Web.txt --> - Indirizzo E-Mail: <!-- $Include var/templates/it/08-Indirizzo_eMail.txt --></paragraph>
+
+</page>
+
+<!-- $EndBlock form -->
+<!-- $BeginBlock table -->
+<page fontsize="10">
+<!-- $BeginBlock row1 -->
+	<image top="10" left="15" height="15" width="15" position="absolute" file="<!-- $Include var/templates/it/logo.txt -->" />
+	<paragraph top="10" left="33" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --></paragraph>
+	<paragraph top="15" left="33" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>
+	<paragraph top="20" left="33" fontcolor="red" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L">Scheda Verbale</paragraph>
+	<paragraph position="absolute" top="30" left="20" width="170" fontsize="11" fontstyle="B" border="0" textalign="C">VERBALE NUMERO ${ID} DEL ${data verbale}</paragraph>
+	<paragraph position="absolute" top="37" left="20" width="170" fontsize="12" fontstyle="B" border="0" textalign="C">${tipologia}</paragraph>
+	
+	<paragraph position="relative" top="5" left="-205" width="180" fontsize="9" border="0" textalign="J" lineheight="4px">In data ${data verbale}, alle ore ${ora inizio}, presso la ${sede riunione} ha avuto luogo quanto riportato in intestazione.</paragraph>
+	<paragraph position="relative" top="2" left="-205" width="180" fontsize="9" border="0" textalign="J" lineheight="4px">Assume la presidenza dell'assemblea, In ottemperanza al vigente Statuto Sociale, il volontario ${presieduta da}, verbalizza ${verbalizzante}. Il presidente, costatato che l'assemblea e' stata regolarmente convocata mediante avviso spedito ai soci contenente l'o.d.g., l'ora ed il luogo, e preso atto che sono presenti i seguenti soci: ${soci presenti}.</paragraph>
+	<paragraph position="relative" top="0" left="-205" width="180" fontsize="9" border="0" textalign="J" lineheight="4px">Dichiara che essa deve ritenersi regolarmente costituita nel rispetto dello statuto sociale per la validita' dell'assemblea, per discutere e deliberare sul seguente Ordine del Giorno:</paragraph>
+  	<paragraph position="relative" top="0" left="-205" width="180" fontsize="9" border="0" textalign="J" lineheight="4px">${ordine del giorno}</paragraph>
+  	<paragraph position="relative" top="2" left="-205" width="180" fontsize="9" border="0" textalign="J" lineheight="3,9px">${testo}</paragraph>
+	<paragraph position="relative" top="1" left="-205" width="180" fontsize="9" border="0" textalign="J" lineheight="4px">Null'altro essendovi da discutere e deliberare e nessuno chiedendo la parola, il presidente dichiara sciolta l'assemblea alle ore ${ora fine riunione} previa stesura, lettura ed approvazione del presente verbale.</paragraph>
+	
+
+	<paragraph position="absolute" top="260" left="18" width="40" font="helvetica" fontsize="8" fontcolor="black" border="0" textalign="C" height="7">IL VERBALIZZANTE</paragraph>
+	<paragraph position="absolute" top="260" left="150" width="40" font="helvetica" fontsize="8" fontcolor="black" border="0" textalign="C" height="7">IL PRESIDENTE</paragraph>
+	<paragraph position="absolute" top="263" left="18" width="40" font="helvetica" fontsize="8" fontcolor="black" border="0" textalign="C" height="7">${verbalizzante}</paragraph>
+	<paragraph position="absolute" top="263" left="150" width="40" font="helvetica" fontsize="8" fontcolor="black" border="0" textalign="C" height="7">${presieduta da}</paragraph>
+
+<paragraph position="absolute" left="0" width="180" top="270" lineheight="5" fontsize="8" textalign="C" border="0" fontstyle="B"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --> <!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --> - Organizzazione di Volontariato</paragraph>
+
+<paragraph position="absolute" left="0" width="180" top="275" lineheight="4" fontsize="7" textalign="C" border="0">Codice Fiscale: <!-- $Include var/templates/it/03-Codice_Fiscale.txt -->
+<!-- $Include var/templates/it/04-Indirizzo_1.txt --> - <!-- $Include var/templates/it/05-Indirizzo_2.txt -->
+Sito Web: <!-- $Include var/templates/it/07-Indirizzo_Web.txt --> - Indirizzo E-Mail: <!-- $Include var/templates/it/08-Indirizzo_eMail.txt --></paragraph>
+
+<!-- $EndBlock row1 -->
+</page>
+<!-- $EndBlock table-->
+
+</body>
+</pdf>

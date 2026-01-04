@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+
+<pdf creator="GestionaleWeb" title="Scheda Cadetto">
+<body format='A4' unit='mm' marginleft='15' marginbottom='0'>
+
+<!-- 85x54 -->
+<!-- $BeginBlock form -->
+<page>
+	<image top="10" left="15" height="15" width="15" position="absolute" file="<!-- $Include var/templates/it/logo.txt -->" />
+	<paragraph top="10" left="33" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --></paragraph>
+	<paragraph top="15" left="33" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>
+	<paragraph top="20" left="33" fontcolor="red" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L">Scheda Cadetto</paragraph>
+	
+	<paragraph position="absolute" left="135" top="10" width="60" fontsize="10" lineheight="5" textalign="C" border="1">DATA ISCRIZIONE:
+
+${data iscrizione}</paragraph>
+
+	<paragraph position="absolute" top="35" left="15" width="180" fontsize="11" fontstyle="B" border="0" textalign="C">DATI ANAGRAFICI</paragraph>
+	
+	<paragraph position="absolute" top="44" left="15" width="15" fontsize="9" border="0" textalign="L">MATR.:</paragraph>
+	<paragraph position="absolute" top="44" left="30" width="15" fontsize="9" fontstyle="B" border="1" textalign="C">C-${matricola}</paragraph>
+	<paragraph position="absolute" top="44" left="45" width="23" fontsize="9" border="0" textalign="C">COGNOME:</paragraph>
+	<paragraph position="absolute" top="44" left="68" width="55" fontsize="9" fontstyle="B" border="1" textalign="C">${cognome}</paragraph>
+	<paragraph position="absolute" top="44" left="123" width="17" fontsize="9" border="0" textalign="C">NOME:</paragraph>
+	<paragraph position="absolute" top="44" left="140" width="55" fontsize="9" fontstyle="B" border="1" textalign="C">${nome}</paragraph>
+	
+	<paragraph position="absolute" top="51" left="15" width="15" fontsize="9" border="0" textalign="L">SESSO:</paragraph>
+	<paragraph position="absolute" top="51" left="30" width="20" fontsize="9" border="1" textalign="C">${sesso}</paragraph>
+	<paragraph position="absolute" top="51" left="50" width="18" fontsize="9" border="0" textalign="C">NATO A:</paragraph>
+	<paragraph position="absolute" top="51" left="68" width="85" fontsize="9" border="1" textalign="C">${luogo di nascita} (${provincia di nascita})</paragraph>
+	<paragraph position="absolute" top="51" left="153" width="10" fontsize="9" border="0" textalign="C">IL:</paragraph>
+	<paragraph position="absolute" top="51" left="163" width="32" fontsize="9" border="1" textalign="C">${data di nascita}</paragraph>
+	
+	<paragraph position="absolute" top="58" left="15" width="35" fontsize="9" border="0" textalign="L">COD. FISCALE:</paragraph>
+	<paragraph position="absolute" top="58" left="50" width="60" fontsize="9" border="1" textalign="C">${codice fiscale}</paragraph>
+	<paragraph position="absolute" top="58" left="110" width="50" fontsize="9" border="0" textalign="C">GRUPPO SANGUIGNO:</paragraph>
+	<paragraph position="absolute" top="58" left="160" width="35" fontsize="9" border="1" textalign="C">${gruppo sanguigno}</paragraph>	
+
+	
+	
+	<paragraph position="absolute" top="71" left="15" width="180" fontsize="11" fontstyle="B" border="0" textalign="C">INFORMAZIONI PERSONALI</paragraph>
+	
+	<paragraph position="absolute" top="80" left="15" width="22" fontsize="9" border="0" textalign="L">INDIRIZZO:</paragraph>
+	<paragraph position="absolute" top="80" left="37" width="158" fontsize="9" border="1" textalign="C">${indirizzo di residenza} - ${cap di residenza} ${comune di residenza} (${provincia di residenza})</paragraph>
+
+	<paragraph position="absolute" top="87" left="15" width="22" fontsize="9" border="0" textalign="L">CELLULARE:</paragraph>
+	<paragraph position="absolute" top="87" left="37" width="30" fontsize="9" border="1" textalign="C">${cellulare}</paragraph>
+	<paragraph position="absolute" top="87" left="67" width="20" fontsize="9" border="0" textalign="C">E-MAIL:</paragraph>
+	<paragraph position="absolute" top="87" left="87" width="63" fontsize="9" border="1" textalign="C">${e-mail}</paragraph>
+	<paragraph position="absolute" top="87" left="150" width="15" fontsize="9" border="0" textalign="C">TEL:</paragraph>
+	<paragraph position="absolute" top="87" left="165" width="30" fontsize="9" border="1" textalign="C">${telefono fisso}</paragraph>
+	
+	<paragraph position="absolute" top="94" left="15" width="40" fontsize="9" border="0" textalign="L">TITOLO DI STUDIO:</paragraph>
+	<paragraph position="absolute" top="94" left="55" width="50" fontsize="9" border="1" textalign="C">${titolo di studio}</paragraph>
+	<paragraph position="absolute" top="94" left="105" width="35" fontsize="9" border="0" textalign="C">ALTRE LINGUE:</paragraph>
+	<paragraph position="absolute" top="94" left="140" width="55" fontsize="9" border="1" textalign="C">${altre lingue conosciute}</paragraph>
+	
+	<paragraph position="absolute" top="101" left="15" width="40" fontsize="9" border="0" textalign="L">SCELTE ALIMENTARI:</paragraph>
+	<paragraph position="absolute" top="101" left="55" width="140" fontsize="9" border="1" textalign="C">${scelte alimentari}</paragraph>
+	
+	<paragraph position="absolute" top="114" left="15" width="158" fontsize="9" border="0" textalign="L">ALLERGIE O INTOLLERANZE ALIMENTARI - SE SI, SONO ELENCATE NELLA RIGA SOTTOSTANTE:</paragraph>
+	<paragraph position="absolute" top="114" left="173" width="22" fontsize="9" border="1" textalign="C">${affetto da allergie o intolleranze}</paragraph>
+	
+	<paragraph position="absolute" top="121" left="15" width="180" fontsize="9" border="1" textalign="C">${allergie o intolleranze}</paragraph>
+
+	
+	<paragraph position="absolute" top="134" left="15" width="180" fontsize="11" fontstyle="B" border="0" textalign="C">INFORMAZIONI SCOLASTICHE</paragraph>
+	
+	<paragraph position="absolute" top="143" left="15" width="50" fontsize="9" border="0" textalign="L">NOME DELLA SCUOLA:</paragraph>
+	<paragraph position="absolute" top="143" left="65" width="130" fontsize="9" border="1" textalign="C">${nome della scuola}</paragraph>
+	
+	<paragraph position="absolute" top="150" left="15" width="50" fontsize="9" border="0" textalign="L">INDIRIZZO DI STUDI:</paragraph>
+	<paragraph position="absolute" top="150" left="65" width="130" fontsize="9" border="1" textalign="C">${indirizzo di studi}</paragraph>
+	
+	<paragraph position="absolute" top="157" left="15" width="22" fontsize="9" border="0" textalign="L">INDIRIZZO:</paragraph>
+	<paragraph position="absolute" top="157" left="37" width="158" fontsize="9" border="1" textalign="C">${indirizzo della scuola} - ${cap della scuola} ${comune della scuola} (${provincia della scuola})</paragraph>
+	
+	<paragraph position="absolute" top="164" left="15" width="22" fontsize="9" border="0" textalign="L">E-MAIL:</paragraph>
+	<paragraph position="absolute" top="164" left="37" width="83" fontsize="9" border="1" textalign="C">${e-mail della scuola}</paragraph>
+	<paragraph position="absolute" top="164" left="120" width="30" fontsize="9" border="0" textalign="C">TEL:</paragraph>
+	<paragraph position="absolute" top="164" left="150" width="45" fontsize="9" border="1" textalign="C">${telefono della scuola}</paragraph>
+
+		
+	<paragraph position="absolute" top="177" left="15" width="180" fontsize="11" fontstyle="B" border="0" textalign="C">PADRE</paragraph>	
+	
+	<paragraph position="absolute" top="186" left="15" width="19" fontsize="9" border="0" textalign="C">COGNOME</paragraph>
+	<paragraph position="absolute" top="186" left="34" width="55" fontsize="9" fontstyle="B" border="1" textalign="C">${padre - cognome}</paragraph>
+	<paragraph position="absolute" top="186" left="89" width="12" fontsize="9" border="0" textalign="C">NOME</paragraph>
+	<paragraph position="absolute" top="186" left="101" width="55" fontsize="9" fontstyle="B" border="1" textalign="C">${padre - nome}</paragraph>
+	<paragraph position="absolute" top="186" left="156" width="6" fontsize="9" border="0" textalign="L">CF</paragraph>
+	<paragraph position="absolute" top="186" left="162" width="33" fontsize="9" border="1" textalign="C">${padre - codice fiscale}</paragraph>
+	
+	<paragraph position="absolute" top="193" left="15" width="50" fontsize="9" border="0" textalign="L">LUOGO E DATA DI NASCITA:</paragraph>
+	<paragraph position="absolute" top="193" left="65" width="130" fontsize="9" border="1" textalign="C">${padre - luogo di nascita} (${padre - prov. di nascita}) - ${padre - data di nascita}</paragraph>
+	
+	<paragraph position="absolute" top="200" left="15" width="22" fontsize="9" border="0" textalign="L">INDIRIZZO:</paragraph>
+	<paragraph position="absolute" top="200" left="37" width="158" fontsize="9" border="1" textalign="C">${padre - indirizzo} - ${padre - cap} ${padre - comune di resid.} (${padre - prov. di residenza})</paragraph>
+
+	<paragraph position="absolute" top="207" left="15" width="22" fontsize="9" border="0" textalign="L">CELLULARE:</paragraph>
+	<paragraph position="absolute" top="207" left="37" width="30" fontsize="9" border="1" textalign="C">${padre - cellulare}</paragraph>
+	<paragraph position="absolute" top="207" left="67" width="20" fontsize="9" border="0" textalign="C">E-MAIL:</paragraph>
+	<paragraph position="absolute" top="207" left="87" width="63" fontsize="9" border="1" textalign="C">${padre - e-mail}</paragraph>
+	<paragraph position="absolute" top="207" left="150" width="15" fontsize="9" border="0" textalign="C">TEL:</paragraph>
+	<paragraph position="absolute" top="207" left="165" width="30" fontsize="9" border="1" textalign="C">${padre - tel. fisso}</paragraph>
+	
+	<paragraph position="absolute" top="220" left="15" width="180" fontsize="11" fontstyle="B" border="0" textalign="C">MADRE</paragraph>		
+	
+	<paragraph position="absolute" top="229" left="15" width="19" fontsize="9" border="0" textalign="C">COGNOME</paragraph>
+	<paragraph position="absolute" top="229" left="34" width="55" fontsize="9" fontstyle="B" border="1" textalign="C">${madre - cognome}</paragraph>
+	<paragraph position="absolute" top="229" left="89" width="12" fontsize="9" border="0" textalign="C">NOME</paragraph>
+	<paragraph position="absolute" top="229" left="101" width="55" fontsize="9" fontstyle="B" border="1" textalign="C">${madre - nome}</paragraph>
+	<paragraph position="absolute" top="229" left="156" width="6" fontsize="9" border="0" textalign="L">CF</paragraph>
+	<paragraph position="absolute" top="229" left="162" width="33" fontsize="9" border="1" textalign="C">${madre - codice fiscale}</paragraph>
+	
+	<paragraph position="absolute" top="236" left="15" width="50" fontsize="9" border="0" textalign="L">LUOGO E DATA DI NASCITA:</paragraph>
+	<paragraph position="absolute" top="236" left="65" width="130" fontsize="9" border="1" textalign="C">${madre - luogo di nascita} (${madre - prov. di nascita}) - ${madre - data di nascita}</paragraph>
+	
+	<paragraph position="absolute" top="243" left="15" width="22" fontsize="9" border="0" textalign="L">INDIRIZZO:</paragraph>
+	<paragraph position="absolute" top="243" left="37" width="158" fontsize="9" border="1" textalign="C">${madre - indirizzo} - ${madre - cap} ${madre - comune di resid.} (${madre - prov. di residenza})</paragraph>
+
+	<paragraph position="absolute" top="250" left="15" width="22" fontsize="9" border="0" textalign="L">CELLULARE:</paragraph>
+	<paragraph position="absolute" top="250" left="37" width="30" fontsize="9" border="1" textalign="C">${madre - cellulare}</paragraph>
+	<paragraph position="absolute" top="250" left="67" width="20" fontsize="9" border="0" textalign="C">E-MAIL:</paragraph>
+	<paragraph position="absolute" top="250" left="87" width="63" fontsize="9" border="1" textalign="C">${madre - e-mail}</paragraph>
+	<paragraph position="absolute" top="250" left="150" width="15" fontsize="9" border="0" textalign="C">TEL:</paragraph>
+	<paragraph position="absolute" top="250" left="165" width="30" fontsize="9" border="1" textalign="C">${madre - telefono fisso}</paragraph>
+
+	
+	<paragraph position="absolute" top="260" left="15" width="180" lineheight="5" fontsize="6" textalign="R" border="0">
+Data e Ora Stampa: ${data/ora applicazione modello}
+</paragraph>
+
+<!-- $EndBlock form -->
+<!-- $BeginBlock table -->
+<page fontsize="10">
+<!-- $BeginBlock row1 -->
+	<image top="10" left="15" height="15" width="15" position="absolute" file="<!-- $Include var/templates/it/logo.txt -->" />
+	<paragraph top="10" left="33" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --></paragraph>
+	<paragraph top="15" left="33" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>
+	<paragraph top="20" left="33" fontcolor="red" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L">Scheda Cadetto</paragraph>
+	
+	<paragraph position="absolute" left="135" top="10" width="60" fontsize="10" lineheight="5" textalign="C" border="1">DATA ISCRIZIONE:
+
+${data iscrizione}</paragraph>
+
+	<paragraph position="absolute" top="35" left="15" width="180" fontsize="11" fontstyle="B" border="0" textalign="C">DATI ANAGRAFICI</paragraph>
+	
+	<paragraph position="absolute" top="44" left="15" width="15" fontsize="9" border="0" textalign="L">MATR.:</paragraph>
+	<paragraph position="absolute" top="44" left="30" width="15" fontsize="9" fontstyle="B" border="1" textalign="C">C-${matricola}</paragraph>
+	<paragraph position="absolute" top="44" left="45" width="23" fontsize="9" border="0" textalign="C">COGNOME:</paragraph>
+	<paragraph position="absolute" top="44" left="68" width="55" fontsize="9" fontstyle="B" border="1" textalign="C">${cognome}</paragraph>
+	<paragraph position="absolute" top="44" left="123" width="17" fontsize="9" border="0" textalign="C">NOME:</paragraph>
+	<paragraph position="absolute" top="44" left="140" width="55" fontsize="9" fontstyle="B" border="1" textalign="C">${nome}</paragraph>
+	
+	<paragraph position="absolute" top="51" left="15" width="15" fontsize="9" border="0" textalign="L">SESSO:</paragraph>
+	<paragraph position="absolute" top="51" left="30" width="20" fontsize="9" border="1" textalign="C">${sesso}</paragraph>
+	<paragraph position="absolute" top="51" left="50" width="18" fontsize="9" border="0" textalign="C">NATO A:</paragraph>
+	<paragraph position="absolute" top="51" left="68" width="85" fontsize="9" border="1" textalign="C">${luogo di nascita} (${provincia di nascita})</paragraph>
+	<paragraph position="absolute" top="51" left="153" width="10" fontsize="9" border="0" textalign="C">IL:</paragraph>
+	<paragraph position="absolute" top="51" left="163" width="32" fontsize="9" border="1" textalign="C">${data di nascita}</paragraph>
+	
+	<paragraph position="absolute" top="58" left="15" width="35" fontsize="9" border="0" textalign="L">COD. FISCALE:</paragraph>
+	<paragraph position="absolute" top="58" left="50" width="60" fontsize="9" border="1" textalign="C">${codice fiscale}</paragraph>
+	<paragraph position="absolute" top="58" left="110" width="50" fontsize="9" border="0" textalign="C">GRUPPO SANGUIGNO:</paragraph>
+	<paragraph position="absolute" top="58" left="160" width="35" fontsize="9" border="1" textalign="C">${gruppo sanguigno}</paragraph>	
+
+	
+	
+	<paragraph position="absolute" top="71" left="15" width="180" fontsize="11" fontstyle="B" border="0" textalign="C">INFORMAZIONI PERSONALI</paragraph>
+	
+	<paragraph position="absolute" top="80" left="15" width="22" fontsize="9" border="0" textalign="L">INDIRIZZO:</paragraph>
+	<paragraph position="absolute" top="80" left="37" width="158" fontsize="9" border="1" textalign="C">${indirizzo di residenza} - ${cap di residenza} ${comune di residenza} (${provincia di residenza})</paragraph>
+
+	<paragraph position="absolute" top="87" left="15" width="22" fontsize="9" border="0" textalign="L">CELLULARE:</paragraph>
+	<paragraph position="absolute" top="87" left="37" width="30" fontsize="9" border="1" textalign="C">${cellulare}</paragraph>
+	<paragraph position="absolute" top="87" left="67" width="20" fontsize="9" border="0" textalign="C">E-MAIL:</paragraph>
+	<paragraph position="absolute" top="87" left="87" width="63" fontsize="9" border="1" textalign="C">${e-mail}</paragraph>
+	<paragraph position="absolute" top="87" left="150" width="15" fontsize="9" border="0" textalign="C">TEL:</paragraph>
+	<paragraph position="absolute" top="87" left="165" width="30" fontsize="9" border="1" textalign="C">${telefono fisso}</paragraph>
+	
+	<paragraph position="absolute" top="94" left="15" width="40" fontsize="9" border="0" textalign="L">TITOLO DI STUDIO:</paragraph>
+	<paragraph position="absolute" top="94" left="55" width="50" fontsize="9" border="1" textalign="C">${titolo di studio}</paragraph>
+	<paragraph position="absolute" top="94" left="105" width="35" fontsize="9" border="0" textalign="C">ALTRE LINGUE:</paragraph>
+	<paragraph position="absolute" top="94" left="140" width="55" fontsize="9" border="1" textalign="C">${altre lingue conosciute}</paragraph>
+	
+	<paragraph position="absolute" top="101" left="15" width="40" fontsize="9" border="0" textalign="L">SCELTE ALIMENTARI:</paragraph>
+	<paragraph position="absolute" top="101" left="55" width="140" fontsize="9" border="1" textalign="C">${scelte alimentari}</paragraph>
+	
+	<paragraph position="absolute" top="114" left="15" width="158" fontsize="9" border="0" textalign="L">ALLERGIE O INTOLLERANZE ALIMENTARI - SE SI, SONO ELENCATE NELLA RIGA SOTTOSTANTE:</paragraph>
+	<paragraph position="absolute" top="114" left="173" width="22" fontsize="9" border="1" textalign="C">${affetto da allergie o intolleranze}</paragraph>
+	
+	<paragraph position="absolute" top="121" left="15" width="180" fontsize="9" border="1" textalign="C">${allergie o intolleranze}</paragraph>
+
+	
+	<paragraph position="absolute" top="134" left="15" width="180" fontsize="11" fontstyle="B" border="0" textalign="C">INFORMAZIONI SCOLASTICHE</paragraph>
+	
+	<paragraph position="absolute" top="143" left="15" width="50" fontsize="9" border="0" textalign="L">NOME DELLA SCUOLA:</paragraph>
+	<paragraph position="absolute" top="143" left="65" width="130" fontsize="9" border="1" textalign="C">${nome della scuola}</paragraph>
+	
+	<paragraph position="absolute" top="150" left="15" width="50" fontsize="9" border="0" textalign="L">INDIRIZZO DI STUDI:</paragraph>
+	<paragraph position="absolute" top="150" left="65" width="130" fontsize="9" border="1" textalign="C">${indirizzo di studi}</paragraph>
+	
+	<paragraph position="absolute" top="157" left="15" width="22" fontsize="9" border="0" textalign="L">INDIRIZZO:</paragraph>
+	<paragraph position="absolute" top="157" left="37" width="158" fontsize="9" border="1" textalign="C">${indirizzo della scuola} - ${cap della scuola} ${comune della scuola} (${provincia della scuola})</paragraph>
+	
+	<paragraph position="absolute" top="164" left="15" width="22" fontsize="9" border="0" textalign="L">E-MAIL:</paragraph>
+	<paragraph position="absolute" top="164" left="37" width="83" fontsize="9" border="1" textalign="C">${e-mail della scuola}</paragraph>
+	<paragraph position="absolute" top="164" left="120" width="30" fontsize="9" border="0" textalign="C">TEL:</paragraph>
+	<paragraph position="absolute" top="164" left="150" width="45" fontsize="9" border="1" textalign="C">${telefono della scuola}</paragraph>
+
+		
+	<paragraph position="absolute" top="177" left="15" width="180" fontsize="11" fontstyle="B" border="0" textalign="C">PADRE</paragraph>	
+	
+	<paragraph position="absolute" top="186" left="15" width="19" fontsize="9" border="0" textalign="C">COGNOME</paragraph>
+	<paragraph position="absolute" top="186" left="34" width="55" fontsize="9" fontstyle="B" border="1" textalign="C">${padre - cognome}</paragraph>
+	<paragraph position="absolute" top="186" left="89" width="12" fontsize="9" border="0" textalign="C">NOME</paragraph>
+	<paragraph position="absolute" top="186" left="101" width="55" fontsize="9" fontstyle="B" border="1" textalign="C">${padre - nome}</paragraph>
+	<paragraph position="absolute" top="186" left="156" width="6" fontsize="9" border="0" textalign="L">CF</paragraph>
+	<paragraph position="absolute" top="186" left="162" width="33" fontsize="9" border="1" textalign="C">${padre - codice fiscale}</paragraph>
+	
+	<paragraph position="absolute" top="193" left="15" width="50" fontsize="9" border="0" textalign="L">LUOGO E DATA DI NASCITA:</paragraph>
+	<paragraph position="absolute" top="193" left="65" width="130" fontsize="9" border="1" textalign="C">${padre - luogo di nascita} (${padre - prov. di nascita}) - ${padre - data di nascita}</paragraph>
+	
+	<paragraph position="absolute" top="200" left="15" width="22" fontsize="9" border="0" textalign="L">INDIRIZZO:</paragraph>
+	<paragraph position="absolute" top="200" left="37" width="158" fontsize="9" border="1" textalign="C">${padre - indirizzo} - ${padre - cap} ${padre - comune di resid.} (${padre - prov. di residenza})</paragraph>
+
+	<paragraph position="absolute" top="207" left="15" width="22" fontsize="9" border="0" textalign="L">CELLULARE:</paragraph>
+	<paragraph position="absolute" top="207" left="37" width="30" fontsize="9" border="1" textalign="C">${padre - cellulare}</paragraph>
+	<paragraph position="absolute" top="207" left="67" width="20" fontsize="9" border="0" textalign="C">E-MAIL:</paragraph>
+	<paragraph position="absolute" top="207" left="87" width="63" fontsize="9" border="1" textalign="C">${padre - e-mail}</paragraph>
+	<paragraph position="absolute" top="207" left="150" width="15" fontsize="9" border="0" textalign="C">TEL:</paragraph>
+	<paragraph position="absolute" top="207" left="165" width="30" fontsize="9" border="1" textalign="C">${padre - tel. fisso}</paragraph>
+	
+	<paragraph position="absolute" top="220" left="15" width="180" fontsize="11" fontstyle="B" border="0" textalign="C">MADRE</paragraph>		
+	
+	<paragraph position="absolute" top="229" left="15" width="19" fontsize="9" border="0" textalign="C">COGNOME</paragraph>
+	<paragraph position="absolute" top="229" left="34" width="55" fontsize="9" fontstyle="B" border="1" textalign="C">${madre - cognome}</paragraph>
+	<paragraph position="absolute" top="229" left="89" width="12" fontsize="9" border="0" textalign="C">NOME</paragraph>
+	<paragraph position="absolute" top="229" left="101" width="55" fontsize="9" fontstyle="B" border="1" textalign="C">${madre - nome}</paragraph>
+	<paragraph position="absolute" top="229" left="156" width="6" fontsize="9" border="0" textalign="L">CF</paragraph>
+	<paragraph position="absolute" top="229" left="162" width="33" fontsize="9" border="1" textalign="C">${madre - codice fiscale}</paragraph>
+	
+	<paragraph position="absolute" top="236" left="15" width="50" fontsize="9" border="0" textalign="L">LUOGO E DATA DI NASCITA:</paragraph>
+	<paragraph position="absolute" top="236" left="65" width="130" fontsize="9" border="1" textalign="C">${madre - luogo di nascita} (${madre - prov. di nascita}) - ${madre - data di nascita}</paragraph>
+	
+	<paragraph position="absolute" top="243" left="15" width="22" fontsize="9" border="0" textalign="L">INDIRIZZO:</paragraph>
+	<paragraph position="absolute" top="243" left="37" width="158" fontsize="9" border="1" textalign="C">${madre - indirizzo} - ${madre - cap} ${madre - comune di resid.} (${madre - prov. di residenza})</paragraph>
+
+	<paragraph position="absolute" top="250" left="15" width="22" fontsize="9" border="0" textalign="L">CELLULARE:</paragraph>
+	<paragraph position="absolute" top="250" left="37" width="30" fontsize="9" border="1" textalign="C">${madre - cellulare}</paragraph>
+	<paragraph position="absolute" top="250" left="67" width="20" fontsize="9" border="0" textalign="C">E-MAIL:</paragraph>
+	<paragraph position="absolute" top="250" left="87" width="63" fontsize="9" border="1" textalign="C">${madre - e-mail}</paragraph>
+	<paragraph position="absolute" top="250" left="150" width="15" fontsize="9" border="0" textalign="C">TEL:</paragraph>
+	<paragraph position="absolute" top="250" left="165" width="30" fontsize="9" border="1" textalign="C">${madre - telefono fisso}</paragraph>
+
+	
+	<paragraph position="absolute" top="260" left="15" width="180" lineheight="5" fontsize="6" textalign="R" border="0">
+Data e Ora Stampa: ${data/ora applicazione modello}
+</paragraph>
+<!-- $EndBlock row1 -->
+
+<paragraph position="absolute" left="0" width="180" top="271" lineheight="5" fontsize="8" textalign="C" border="0" fontstyle="B"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --> <!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --> - Organizzazione di Volontariato</paragraph>
+
+<paragraph position="absolute" left="0" width="180" top="276" lineheight="4" fontsize="7" textalign="C" border="0">Codice Fiscale: <!-- $Include var/templates/it/03-Codice_Fiscale.txt -->
+<!-- $Include var/templates/it/04-Indirizzo_1.txt --> - <!-- $Include var/templates/it/05-Indirizzo_2.txt -->
+Sito Web: <!-- $Include var/templates/it/07-Indirizzo_Web.txt --> - Indirizzo E-Mail: <!-- $Include var/templates/it/08-Indirizzo_eMail.txt --></paragraph>
+
+</page>
+<!-- $EndBlock table-->
+
+</body>
+</pdf>

@@ -1,0 +1,425 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+
+<pdf creator="GestionaleWeb" title="Tesserino Soci">
+<body format='A4' unit='mm' marginleft='15' marginbottom='0'>
+
+<!-- 100x60 -->
+<!-- $BeginBlock form -->
+<page>
+
+	<box top="15+54*0" left="15" right="15+86" bottom="15+54*1" />
+	<image top="15+54*0+0.2" left="15+0.2" height="53" width="85" position="absolute" file="<!-- $Include var/templates/it/tricolore.txt -->" />
+	
+	<paragraph top="15+54*0+2" left="15+10" fontsize="12" fontstyle="B" position="absolute" border="0" width="66" textalign="C" fontcolor="#0011ff"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --></paragraph>
+	<paragraph top="15+54*0+7" left="15+6" fontsize="15" fontstyle="B" position="absolute" border="0" width="74" textalign="C" lineheight="5" fontcolor="#0011ff"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>
+	<paragraph top="15+54*0+12" left="15+3" fontsize="8" fontstyle="B" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000"><!-- $Include var/templates/it/04-Indirizzo_1.txt --> - <!-- $Include var/templates/it/05-Indirizzo_2.txt --></paragraph>
+	
+	<box top="15+54*0+20" left="15+5" right="15+5+18.6" bottom="15+54*0+20+23.2" />
+	
+	<paragraph top="15+54*0+28" left="15+6" width="17.4" fontsize="8" position="absolute" textalign="C">FOTO</paragraph>
+	<image top="15+54*0+20.1" left="15+5.1" height="23" width="18.4" position="absolute" file="var/files/FOTO_TESSERINI/${nome} ${cognome}.jpeg" />
+	
+	<paragraph top="15+54*0+19" left="15+24.5" width="15" fontsize="9.5" position="absolute" textalign="L">Nome:</paragraph>
+	<paragraph top="15+54*0+23" left="15+24.5" width="58" fontsize="11" position="absolute" fontstyle="b" textalign="L">${nome}</paragraph>
+	
+	<paragraph top="15+54*0+29" left="15+24.5" width="20" fontsize="9.5" position="absolute" textalign="L">Cognome:</paragraph>
+	<paragraph top="15+54*0+33" left="15+24.5" width="58" fontsize="11" position="absolute" fontstyle="b" textalign="L">${cognome}</paragraph>
+	
+	<paragraph top="15+54*0+40" left="15+24.5" width="20" fontsize="10" position="absolute" textalign="L">Matricola:</paragraph>
+	<paragraph top="15+54*0+40" left="15+41.5" width="58" fontsize="11" position="absolute" fontstyle="b" textalign="L">${matricola}</paragraph>
+	
+	
+	<paragraph top="15+54*0+46" left="15+0.1" width="85.9" lineheight="7.9" fill="1" fillcolor="#ff9900" textalign="C" position="absolute" fontstyle="B" fontcolor="#0011ff" border="0" fontsize="20">PRESIDENTE</paragraph>
+
+
+
+
+</page>
+
+<!-- $EndBlock form -->
+
+<!-- $BeginBlock table -->
+<page>
+<!-- $BeginBlock row1 -->
+
+	<box top="15+54*0" left="15" right="15+86" bottom="15+54*1" />
+	<image top="15+54*0+0.2" left="15+0.2" height="53" width="85" position="absolute" file="<!-- $Include var/templates/it/tricolore.txt -->" />
+	
+	<paragraph top="15+54*0+2" left="15+10" fontsize="12" fontstyle="B" position="absolute" border="0" width="66" textalign="C" fontcolor="#0011ff"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --></paragraph>
+	<paragraph top="15+54*0+7" left="15+6" fontsize="15" fontstyle="B" position="absolute" border="0" width="74" textalign="C" lineheight="5" fontcolor="#0011ff"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>
+	<paragraph top="15+54*0+12" left="15+3" fontsize="8" fontstyle="B" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000"><!-- $Include var/templates/it/04-Indirizzo_1.txt --> - <!-- $Include var/templates/it/05-Indirizzo_2.txt --></paragraph>
+	
+	<box top="15+54*0+20" left="15+5" right="15+5+18.6" bottom="15+54*0+20+23.2" />
+	
+	<paragraph top="15+54*0+28" left="15+6" width="17.4" fontsize="8" position="absolute" textalign="C">FOTO</paragraph>
+	<image top="15+54*0+20.1" left="15+5.1" height="23" width="18.4" position="absolute" file="var/files/FOTO_TESSERINI/${nome} ${cognome}.jpeg" />
+	
+	<paragraph top="15+54*0+19" left="15+24.5" width="15" fontsize="9.5" position="absolute" textalign="L">Nome:</paragraph>
+	<paragraph top="15+54*0+23" left="15+24.5" width="58" fontsize="11" position="absolute" fontstyle="b" textalign="L">${nome}</paragraph>
+	
+	<paragraph top="15+54*0+29" left="15+24.5" width="20" fontsize="9.5" position="absolute" textalign="L">Cognome:</paragraph>
+	<paragraph top="15+54*0+33" left="15+24.5" width="58" fontsize="11" position="absolute" fontstyle="b" textalign="L">${cognome}</paragraph>
+	
+	<paragraph top="15+54*0+40" left="15+24.5" width="20" fontsize="10" position="absolute" textalign="L">Matricola:</paragraph>
+	<paragraph top="15+54*0+40" left="15+41.5" width="58" fontsize="11" position="absolute" fontstyle="b" textalign="L">${matricola}</paragraph>
+	
+	
+	<paragraph top="15+54*0+46" left="15+0.1" width="85.9" lineheight="7.9" fill="1" fillcolor="#ff9900" textalign="C" position="absolute" fontstyle="B" fontcolor="#0011ff" border="0" fontsize="20">PRESIDENTE</paragraph>
+
+<!-- $EndBlock row1 -->
+
+<!-- $BeginBlock row2 -->
+
+
+	<box top="15+54*0" left="109" right="109+86" bottom="15+54*1" />
+	<image top="15+54*0+0.2" left="109+0.2" height="53" width="85" position="absolute" file="<!-- $Include var/templates/it/tricolore.txt -->" />
+	
+	<paragraph top="15+54*0+2" left="109+10" fontsize="12" fontstyle="B" position="absolute" border="0" width="66" textalign="C" fontcolor="#0011ff"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --></paragraph>
+	<paragraph top="15+54*0+7" left="109+6" fontsize="15" fontstyle="B" position="absolute" border="0" width="74" textalign="C" lineheight="5" fontcolor="#0011ff"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>
+	<paragraph top="15+54*0+12" left="109+3" fontsize="8" fontstyle="B" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000"><!-- $Include var/templates/it/04-Indirizzo_1.txt --> - <!-- $Include var/templates/it/05-Indirizzo_2.txt --></paragraph>
+	
+	<box top="15+54*0+20" left="109+5" right="109+5+18.6" bottom="15+54*0+20+23.2" />
+	
+	<paragraph top="15+54*0+28" left="109+6" width="17.4" fontsize="8" position="absolute" textalign="C">FOTO</paragraph>
+	<image top="15+54*0+20.1" left="109+5.1" height="23" width="18.4" position="absolute" file="var/files/FOTO_TESSERINI/${nome} ${cognome}.jpeg" />
+	
+	<paragraph top="15+54*0+19" left="109+24.5" width="15" fontsize="9.5" position="absolute" textalign="L">Nome:</paragraph>
+	<paragraph top="15+54*0+23" left="109+24.5" width="58" fontsize="11" position="absolute" fontstyle="b" textalign="L">${nome}</paragraph>
+	
+	<paragraph top="15+54*0+29" left="109+24.5" width="20" fontsize="9.5" position="absolute" textalign="L">Cognome:</paragraph>
+	<paragraph top="15+54*0+33" left="109+24.5" width="58" fontsize="11" position="absolute" fontstyle="b" textalign="L">${cognome}</paragraph>
+	
+	<paragraph top="15+54*0+40" left="109+24.5" width="20" fontsize="10" position="absolute" textalign="L">Matricola:</paragraph>
+	<paragraph top="15+54*0+40" left="109+41.5" width="58" fontsize="11" position="absolute" fontstyle="b" textalign="L">${matricola}</paragraph>
+	
+	
+	<paragraph top="15+54*0+46" left="109+0.1" width="85.9" lineheight="7.9" fill="1" fillcolor="#ff9900" textalign="C" position="absolute" fontstyle="B" fontcolor="#0011ff" border="0" fontsize="20">PRESIDENTE</paragraph>
+
+
+
+<!-- $EndBlock row2 -->
+
+<!-- $BeginBlock row3 -->
+
+	<box top="15+54*1+8" left="15" right="15+86" bottom="15+54*2+8" />
+	<image top="15+54*1+0.2+8" left="15+0.2" height="53" width="85" position="absolute" file="<!-- $Include var/templates/it/tricolore.txt -->" />
+	
+	<paragraph top="15+54*1+2+8" left="15+10" fontsize="12" fontstyle="B" position="absolute" border="0" width="66" textalign="C" fontcolor="#0011ff"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --></paragraph>
+	<paragraph top="15+54*1+7+8" left="15+6" fontsize="15" fontstyle="B" position="absolute" border="0" width="74" textalign="C" lineheight="5" fontcolor="#0011ff"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>
+	<paragraph top="15+54*1+12+8" left="15+3" fontsize="8" fontstyle="B" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000"><!-- $Include var/templates/it/04-Indirizzo_1.txt --> - <!-- $Include var/templates/it/05-Indirizzo_2.txt --></paragraph>
+	
+	<box top="15+54*1+20+8" left="15+5" right="15+5+18.6" bottom="15+54*1+20+23.2+8" />
+	
+	<paragraph top="15+54*1+28+8" left="15+6" width="17.4" fontsize="8" position="absolute" textalign="C">FOTO</paragraph>
+	<image top="15+54*1+20.1+8" left="15+5.1" height="23" width="18.4" position="absolute" file="var/files/FOTO_TESSERINI/${nome} ${cognome}.jpeg" />
+	
+	<paragraph top="15+54*1+19+8" left="15+24.5" width="15" fontsize="9.5" position="absolute" textalign="L">Nome:</paragraph>
+	<paragraph top="15+54*1+23+8" left="15+24.5" width="58" fontsize="11" position="absolute" fontstyle="b" textalign="L">${nome}</paragraph>
+	
+	<paragraph top="15+54*1+29+8" left="15+24.5" width="20" fontsize="9.5" position="absolute" textalign="L">Cognome:</paragraph>
+	<paragraph top="15+54*1+33+8" left="15+24.5" width="58" fontsize="11" position="absolute" fontstyle="b" textalign="L">${cognome}</paragraph>
+	
+	<paragraph top="15+54*1+40+8" left="15+24.5" width="20" fontsize="10" position="absolute" textalign="L">Matricola:</paragraph>
+	<paragraph top="15+54*1+40+8" left="15+41.5" width="58" fontsize="11" position="absolute" fontstyle="b" textalign="L">${matricola}</paragraph>
+	
+	
+	<paragraph top="15+54*1+46+8" left="15+0.1" width="85.9" lineheight="7.9" fill="1" fillcolor="#ff9900" textalign="C" position="absolute" fontstyle="B" fontcolor="#0011ff" border="0" fontsize="20">PRESIDENTE</paragraph>
+
+<!-- $EndBlock row3 -->
+
+<!-- $BeginBlock row4 -->
+
+	<box top="15+54*1+8" left="109" right="109+86" bottom="15+54*2+8" />
+	<image top="15+54*1+0.2+8" left="109+0.2" height="53" width="85" position="absolute" file="<!-- $Include var/templates/it/tricolore.txt -->" />
+	
+	<paragraph top="15+54*1+2+8" left="109+10" fontsize="12" fontstyle="B" position="absolute" border="0" width="66" textalign="C" fontcolor="#0011ff"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --></paragraph>
+	<paragraph top="15+54*1+7+8" left="109+6" fontsize="15" fontstyle="B" position="absolute" border="0" width="74" textalign="C" lineheight="5" fontcolor="#0011ff"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>
+	<paragraph top="15+54*1+12+8" left="109+3" fontsize="8" fontstyle="B" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000"><!-- $Include var/templates/it/04-Indirizzo_1.txt --> - <!-- $Include var/templates/it/05-Indirizzo_2.txt --></paragraph>
+	
+	<box top="15+54*1+20+8" left="109+5" right="109+5+18.6" bottom="15+54*1+20+23.2+8" />
+	
+	<paragraph top="15+54*1+28+8" left="109+6" width="17.4" fontsize="8" position="absolute" textalign="C">FOTO</paragraph>
+	<image top="15+54*1+20.1+8" left="109+5.1" height="23" width="18.4" position="absolute" file="var/files/FOTO_TESSERINI/${nome} ${cognome}.jpeg" />
+	
+	<paragraph top="15+54*1+19+8" left="109+24.5" width="15" fontsize="9.5" position="absolute" textalign="L">Nome:</paragraph>
+	<paragraph top="15+54*1+23+8" left="109+24.5" width="58" fontsize="11" position="absolute" fontstyle="b" textalign="L">${nome}</paragraph>
+	
+	<paragraph top="15+54*1+29+8" left="109+24.5" width="20" fontsize="9.5" position="absolute" textalign="L">Cognome:</paragraph>
+	<paragraph top="15+54*1+33+8" left="109+24.5" width="58" fontsize="11" position="absolute" fontstyle="b" textalign="L">${cognome}</paragraph>
+	
+	<paragraph top="15+54*1+40+8" left="109+24.5" width="20" fontsize="10" position="absolute" textalign="L">Matricola:</paragraph>
+	<paragraph top="15+54*1+40+8" left="109+41.5" width="58" fontsize="11" position="absolute" fontstyle="b" textalign="L">${matricola}</paragraph>
+	
+	
+	<paragraph top="15+54*1+46+8" left="109+0.1" width="85.9" lineheight="7.9" fill="1" fillcolor="#ff9900" textalign="C" position="absolute" fontstyle="B" fontcolor="#0011ff" border="0" fontsize="20">PRESIDENTE</paragraph>
+
+<!-- $EndBlock row4 -->
+
+<!-- $BeginBlock row5 -->
+
+	<box top="15+54*2+8+8" left="15" right="15+86" bottom="15+54*3+8+8" />
+	<image top="15+54*2+0.2+8+8" left="15+0.2" height="53" width="85" position="absolute" file="<!-- $Include var/templates/it/tricolore.txt -->" />
+	
+	<paragraph top="15+54*2+2+8+8" left="15+10" fontsize="12" fontstyle="B" position="absolute" border="0" width="66" textalign="C" fontcolor="#0011ff"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --></paragraph>
+	<paragraph top="15+54*2+7+8+8" left="15+6" fontsize="15" fontstyle="B" position="absolute" border="0" width="74" textalign="C" lineheight="5" fontcolor="#0011ff"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>
+	<paragraph top="15+54*2+12+8+8" left="15+3" fontsize="8" fontstyle="B" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000"><!-- $Include var/templates/it/04-Indirizzo_1.txt --> - <!-- $Include var/templates/it/05-Indirizzo_2.txt --></paragraph>
+	
+	<box top="15+54*2+20+8+8" left="15+5" right="15+5+18.6" bottom="15+54*2+20+23.2+8+8" />
+	
+	<paragraph top="15+54*2+28+8+8" left="15+6" width="17.4" fontsize="8" position="absolute" textalign="C">FOTO</paragraph>
+	<image top="15+54*2+20.1+8+8" left="15+5.1" height="23" width="18.4" position="absolute" file="var/files/FOTO_TESSERINI/${nome} ${cognome}.jpeg" />
+	
+	<paragraph top="15+54*2+19+8+8" left="15+24.5" width="15" fontsize="9.5" position="absolute" textalign="L">Nome:</paragraph>
+	<paragraph top="15+54*2+23+8+8" left="15+24.5" width="58" fontsize="11" position="absolute" fontstyle="b" textalign="L">${nome}</paragraph>
+	
+	<paragraph top="15+54*2+29+8+8" left="15+24.5" width="20" fontsize="9.5" position="absolute" textalign="L">Cognome:</paragraph>
+	<paragraph top="15+54*2+33+8+8" left="15+24.5" width="58" fontsize="11" position="absolute" fontstyle="b" textalign="L">${cognome}</paragraph>
+	
+	<paragraph top="15+54*2+40+8+8" left="15+24.5" width="20" fontsize="10" position="absolute" textalign="L">Matricola:</paragraph>
+	<paragraph top="15+54*2+40+8+8" left="15+41.5" width="58" fontsize="11" position="absolute" fontstyle="b" textalign="L">${matricola}</paragraph>
+	
+	
+	<paragraph top="15+54*2+46+8+8" left="15+0.1" width="85.9" lineheight="7.9" fill="1" fillcolor="#ff9900" textalign="C" position="absolute" fontstyle="B" fontcolor="#0011ff" border="0" fontsize="20">PRESIDENTE</paragraph>
+
+<!-- $EndBlock row5 -->
+
+<!-- $BeginBlock row6 -->
+
+	<box top="15+54*2+8+8" left="109" right="109+86" bottom="15+54*3+8+8" />
+	<image top="15+54*2+0.2+8+8" left="109+0.2" height="53" width="85" position="absolute" file="<!-- $Include var/templates/it/tricolore.txt -->" />
+	
+	<paragraph top="15+54*2+2+8+8" left="109+10" fontsize="12" fontstyle="B" position="absolute" border="0" width="66" textalign="C" fontcolor="#0011ff"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --></paragraph>
+	<paragraph top="15+54*2+7+8+8" left="109+6" fontsize="15" fontstyle="B" position="absolute" border="0" width="74" textalign="C" lineheight="5" fontcolor="#0011ff"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>
+	<paragraph top="15+54*2+12+8+8" left="109+3" fontsize="8" fontstyle="B" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000"><!-- $Include var/templates/it/04-Indirizzo_1.txt --> - <!-- $Include var/templates/it/05-Indirizzo_2.txt --></paragraph>
+	
+	<box top="15+54*2+20+8+8" left="109+5" right="109+5+18.6" bottom="15+54*2+20+23.2+8+8" />
+	
+	<paragraph top="15+54*2+28+8+8" left="109+6" width="17.4" fontsize="8" position="absolute" textalign="C">FOTO</paragraph>
+	<image top="15+54*2+20.1+8+8" left="109+5.1" height="23" width="18.4" position="absolute" file="var/files/FOTO_TESSERINI/${nome} ${cognome}.jpeg" />
+	
+	<paragraph top="15+54*2+19+8+8" left="109+24.5" width="15" fontsize="9.5" position="absolute" textalign="L">Nome:</paragraph>
+	<paragraph top="15+54*2+23+8+8" left="109+24.5" width="58" fontsize="11" position="absolute" fontstyle="b" textalign="L">${nome}</paragraph>
+	
+	<paragraph top="15+54*2+29+8+8" left="109+24.5" width="20" fontsize="9.5" position="absolute" textalign="L">Cognome:</paragraph>
+	<paragraph top="15+54*2+33+8+8" left="109+24.5" width="58" fontsize="11" position="absolute" fontstyle="b" textalign="L">${cognome}</paragraph>
+	
+	<paragraph top="15+54*2+40+8+8" left="109+24.5" width="20" fontsize="10" position="absolute" textalign="L">Matricola:</paragraph>
+	<paragraph top="15+54*2+40+8+8" left="109+41.5" width="58" fontsize="11" position="absolute" fontstyle="b" textalign="L">${matricola}</paragraph>
+	
+	
+	<paragraph top="15+54*2+46+8+8" left="109+0.1" width="85.9" lineheight="7.9" fill="1" fillcolor="#ff9900" textalign="C" position="absolute" fontstyle="B" fontcolor="#0011ff" border="0" fontsize="20">PRESIDENTE</paragraph>
+
+<!-- $EndBlock row6 -->
+
+<!-- $BeginBlock row7 -->
+
+	<box top="15+54*3+8+8+8" left="15" right="15+86" bottom="15+54*4+8+8+8" />
+	<image top="15+54*3+0.2+8+8+8" left="15+0.2" height="53" width="85" position="absolute" file="<!-- $Include var/templates/it/tricolore.txt -->" />
+	
+	<paragraph top="15+54*3+2+8+8+8" left="15+10" fontsize="12" fontstyle="B" position="absolute" border="0" width="66" textalign="C" fontcolor="#0011ff"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --></paragraph>
+	<paragraph top="15+54*3+7+8+8+8" left="15+6" fontsize="15" fontstyle="B" position="absolute" border="0" width="74" textalign="C" lineheight="5" fontcolor="#0011ff"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>
+	<paragraph top="15+54*3+12+8+8+8" left="15+3" fontsize="8" fontstyle="B" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000"><!-- $Include var/templates/it/04-Indirizzo_1.txt --> - <!-- $Include var/templates/it/05-Indirizzo_2.txt --></paragraph>
+	
+	<box top="15+54*3+20+8+8+8" left="15+5" right="15+5+18.6" bottom="15+54*3+20+23.2+8+8+8" />
+	
+	<paragraph top="15+54*3+28+8+8+8" left="15+6" width="17.4" fontsize="8" position="absolute" textalign="C">FOTO</paragraph>
+	<image top="15+54*3+20.1+8+8+8" left="15+5.1" height="23" width="18.4" position="absolute" file="var/files/FOTO_TESSERINI/${nome} ${cognome}.jpeg" />
+	
+	<paragraph top="15+54*3+19+8+8+8" left="15+24.5" width="15" fontsize="9.5" position="absolute" textalign="L">Nome:</paragraph>
+	<paragraph top="15+54*3+23+8+8+8" left="15+24.5" width="58" fontsize="11" position="absolute" fontstyle="b" textalign="L">${nome}</paragraph>
+	
+	<paragraph top="15+54*3+29+8+8+8" left="15+24.5" width="20" fontsize="9.5" position="absolute" textalign="L">Cognome:</paragraph>
+	<paragraph top="15+54*3+33+8+8+8" left="15+24.5" width="58" fontsize="11" position="absolute" fontstyle="b" textalign="L">${cognome}</paragraph>
+	
+	<paragraph top="15+54*3+40+8+8+8" left="15+24.5" width="20" fontsize="10" position="absolute" textalign="L">Matricola:</paragraph>
+	<paragraph top="15+54*3+40+8+8+8" left="15+41.5" width="58" fontsize="11" position="absolute" fontstyle="b" textalign="L">${matricola}</paragraph>
+	
+	
+	<paragraph top="15+54*3+46+8+8+8" left="15+0.1" width="85.9" lineheight="7.9" fill="1" fillcolor="#ff9900" textalign="C" position="absolute" fontstyle="B" fontcolor="#0011ff" border="0" fontsize="20">PRESIDENTE</paragraph>
+
+<!-- $EndBlock row7 -->
+
+<!-- $BeginBlock row8 -->
+
+	<box top="15+54*3+8+8+8" left="109" right="109+86" bottom="15+54*4+8+8+8" />
+	<image top="15+54*3+0.2+8+8+8" left="109+0.2" height="53" width="85" position="absolute" file="<!-- $Include var/templates/it/tricolore.txt -->" />
+	
+	<paragraph top="15+54*3+2+8+8+8" left="109+10" fontsize="12" fontstyle="B" position="absolute" border="0" width="66" textalign="C" fontcolor="#0011ff"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --></paragraph>
+	<paragraph top="15+54*3+7+8+8+8" left="109+6" fontsize="15" fontstyle="B" position="absolute" border="0" width="74" textalign="C" lineheight="5" fontcolor="#0011ff"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>
+	<paragraph top="15+54*3+12+8+8+8" left="109+3" fontsize="8" fontstyle="B" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000"><!-- $Include var/templates/it/04-Indirizzo_1.txt --> - <!-- $Include var/templates/it/05-Indirizzo_2.txt --></paragraph>
+	
+	<box top="15+54*3+20+8+8+8" left="109+5" right="109+5+18.6" bottom="15+54*3+20+23.2+8+8+8" />
+	
+	<paragraph top="15+54*3+28+8+8+8" left="109+6" width="17.4" fontsize="8" position="absolute" textalign="C">FOTO</paragraph>
+	<image top="15+54*3+20.1+8+8+8" left="109+5.1" height="23" width="18.4" position="absolute" file="var/files/FOTO_TESSERINI/${nome} ${cognome}.jpeg" />
+	
+	<paragraph top="15+54*3+19+8+8+8" left="109+24.5" width="15" fontsize="9.5" position="absolute" textalign="L">Nome:</paragraph>
+	<paragraph top="15+54*3+23+8+8+8" left="109+24.5" width="58" fontsize="11" position="absolute" fontstyle="b" textalign="L">${nome}</paragraph>
+	
+	<paragraph top="15+54*3+29+8+8+8" left="109+24.5" width="20" fontsize="9.5" position="absolute" textalign="L">Cognome:</paragraph>
+	<paragraph top="15+54*3+33+8+8+8" left="109+24.5" width="58" fontsize="11" position="absolute" fontstyle="b" textalign="L">${cognome}</paragraph>
+	
+	<paragraph top="15+54*3+40+8+8+8" left="109+24.5" width="20" fontsize="10" position="absolute" textalign="L">Matricola:</paragraph>
+	<paragraph top="15+54*3+40+8+8+8" left="109+41.5" width="58" fontsize="11" position="absolute" fontstyle="b" textalign="L">${matricola}</paragraph>
+	
+	
+	<paragraph top="15+54*3+46+8+8+8" left="109+0.1" width="85.9" lineheight="7.9" fill="1" fillcolor="#ff9900" textalign="C" position="absolute" fontstyle="B" fontcolor="#0011ff" border="0" fontsize="20">PRESIDENTE</paragraph>
+
+<!-- $EndBlock row8 -->
+
+	<paragraph top="15+54*4+8+8+8+8" left="15" width="180" fontsize="9" lineheight="3.2" position="absolute" textalign="J">ATTENZIONE: I Tesserini vengono stampati su due pagine: Questa e' la pagina frontale, contenente i tesserini con i dati dei volontari, L'intestazione dell'Associazione e la fotografia. La seconda pagina invece contiene le informazioni ed i recapiti dell'Associazione in caso di smarrimento della tessera. Effettuare stampa Fronte/Retro.
+I Tesserini sono centrati orizzontalmente: 15 millimetri ai due lati estremi, 86 millimetri di larghezza del tesserino, 8 millimetri di spazio centrale.
+I Tesserini sono centrati verticalmente: 15 millimetri di margine superiore, 54 millimetri di altezza del tesserino, 8 millimetri di spazio centrale.</paragraph>
+
+</page>
+<page>
+
+<!-- $BeginBlock row1 -->
+
+	<paragraph top="15+54*0+6" left="109+3" fontsize="10" fontstyle="B" position="absolute" border="0" width="80" textalign="C">In caso di ritrovamento si prega di inviarlo a:</paragraph>
+	
+	<paragraph top="15+54*0+11" left="109+3" fontsize="9" fontstyle="B" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --></paragraph>
+	<paragraph top="15+54*0+15" left="109+3" fontsize="9" fontstyle="B" position="absolute" border="0" width="80" textalign="C" lineheight="5" fontcolor="#000000"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>
+	<paragraph top="15+54*0+19" left="109+3" fontsize="9" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000"><!-- $Include var/templates/it/04-Indirizzo_1.txt --> - <!-- $Include var/templates/it/05-Indirizzo_2.txt --></paragraph>
+
+	<paragraph top="15+54*0+27" left="109+3" fontsize="10" fontstyle="B" position="absolute" border="0" width="80" textalign="C">o di mettersi in contatto con noi:</paragraph>
+	
+	<paragraph top="15+54*0+32" left="109+3" fontsize="8" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000">Sito Web:  <!-- $Include var/templates/it/07-Indirizzo_Web.txt --></paragraph>
+	<paragraph top="15+54*0+36" left="109+3" fontsize="8" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000">E-Mail:  <!-- $Include var/templates/it/08-Indirizzo_eMail.txt --></paragraph>
+	<paragraph top="15+54*0+40" left="109+3" fontsize="8" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000">PEC:  <!-- $Include var/templates/it/09-Indirizzo_PEC.txt --></paragraph>
+
+	<paragraph top="15+54*0+45" left="109+3" fontsize="8" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000">Tel.:  <!-- $Include var/templates/it/10-N_Telefono.txt --> - Fax:  <!-- $Include var/templates/it/11-N_Fax.txt --></paragraph>
+
+<!-- $EndBlock row1 -->
+
+<!-- $BeginBlock row2 -->
+
+	<paragraph top="15+54*0+6" left="15+3" fontsize="10" fontstyle="B" position="absolute" border="0" width="80" textalign="C">In caso di ritrovamento si prega di inviarlo a:</paragraph>
+	
+	<paragraph top="15+54*0+11" left="15+3" fontsize="9" fontstyle="B" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --></paragraph>
+	<paragraph top="15+54*0+15" left="15+3" fontsize="9" fontstyle="B" position="absolute" border="0" width="80" textalign="C" lineheight="5" fontcolor="#000000"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>
+	<paragraph top="15+54*0+19" left="15+3" fontsize="9" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000"><!-- $Include var/templates/it/04-Indirizzo_1.txt --> - <!-- $Include var/templates/it/05-Indirizzo_2.txt --></paragraph>
+
+	<paragraph top="15+54*0+27" left="15+3" fontsize="10" fontstyle="B" position="absolute" border="0" width="80" textalign="C">o di mettersi in contatto con noi:</paragraph>
+	
+	<paragraph top="15+54*0+32" left="15+3" fontsize="8" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000">Sito Web:  <!-- $Include var/templates/it/07-Indirizzo_Web.txt --></paragraph>
+	<paragraph top="15+54*0+36" left="15+3" fontsize="8" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000">E-Mail:  <!-- $Include var/templates/it/08-Indirizzo_eMail.txt --></paragraph>
+	<paragraph top="15+54*0+40" left="15+3" fontsize="8" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000">PEC:  <!-- $Include var/templates/it/09-Indirizzo_PEC.txt --></paragraph>
+
+	<paragraph top="15+54*0+45" left="15+3" fontsize="8" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000">Tel.:  <!-- $Include var/templates/it/10-N_Telefono.txt --> - Fax:  <!-- $Include var/templates/it/11-N_Fax.txt --></paragraph>
+
+<!-- $EndBlock row2 -->
+
+<!-- $BeginBlock row3 -->
+	
+	<paragraph top="15+54*1+6+8" left="109+3" fontsize="10" fontstyle="B" position="absolute" border="0" width="80" textalign="C">In caso di ritrovamento si prega di inviarlo a:</paragraph>
+	
+	<paragraph top="15+54*1+11+8" left="109+3" fontsize="9" fontstyle="B" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --></paragraph>
+	<paragraph top="15+54*1+15+8" left="109+3" fontsize="9" fontstyle="B" position="absolute" border="0" width="80" textalign="C" lineheight="5" fontcolor="#000000"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>
+	<paragraph top="15+54*1+19+8" left="109+3" fontsize="9" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000"><!-- $Include var/templates/it/04-Indirizzo_1.txt --> - <!-- $Include var/templates/it/05-Indirizzo_2.txt --></paragraph>
+
+	<paragraph top="15+54*1+27+8" left="109+3" fontsize="10" fontstyle="B" position="absolute" border="0" width="80" textalign="C">o di mettersi in contatto con noi:</paragraph>
+	
+	<paragraph top="15+54*1+32+8" left="109+3" fontsize="8" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000">Sito Web:  <!-- $Include var/templates/it/07-Indirizzo_Web.txt --></paragraph>
+	<paragraph top="15+54*1+36+8" left="109+3" fontsize="8" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000">E-Mail:  <!-- $Include var/templates/it/08-Indirizzo_eMail.txt --></paragraph>
+	<paragraph top="15+54*1+40+8" left="109+3" fontsize="8" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000">PEC:  <!-- $Include var/templates/it/09-Indirizzo_PEC.txt --></paragraph>
+
+	<paragraph top="15+54*1+45+8" left="109+3" fontsize="8" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000">Tel.:  <!-- $Include var/templates/it/10-N_Telefono.txt --> - Fax:  <!-- $Include var/templates/it/11-N_Fax.txt --></paragraph>
+
+<!-- $EndBlock row3 -->
+
+<!-- $BeginBlock row4 -->
+
+	<paragraph top="15+54*1+6+8" left="15+3" fontsize="10" fontstyle="B" position="absolute" border="0" width="80" textalign="C">In caso di ritrovamento si prega di inviarlo a:</paragraph>
+	
+	<paragraph top="15+54*1+11+8" left="15+3" fontsize="9" fontstyle="B" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --></paragraph>
+	<paragraph top="15+54*1+15+8" left="15+3" fontsize="9" fontstyle="B" position="absolute" border="0" width="80" textalign="C" lineheight="5" fontcolor="#000000"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>
+	<paragraph top="15+54*1+19+8" left="15+3" fontsize="9" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000"><!-- $Include var/templates/it/04-Indirizzo_1.txt --> - <!-- $Include var/templates/it/05-Indirizzo_2.txt --></paragraph>
+
+	<paragraph top="15+54*1+27+8" left="15+3" fontsize="10" fontstyle="B" position="absolute" border="0" width="80" textalign="C">o di mettersi in contatto con noi:</paragraph>
+	
+	<paragraph top="15+54*1+32+8" left="15+3" fontsize="8" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000">Sito Web:  <!-- $Include var/templates/it/07-Indirizzo_Web.txt --></paragraph>
+	<paragraph top="15+54*1+36+8" left="15+3" fontsize="8" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000">E-Mail:  <!-- $Include var/templates/it/08-Indirizzo_eMail.txt --></paragraph>
+	<paragraph top="15+54*1+40+8" left="15+3" fontsize="8" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000">PEC:  <!-- $Include var/templates/it/09-Indirizzo_PEC.txt --></paragraph>
+
+	<paragraph top="15+54*1+45+8" left="15+3" fontsize="8" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000">Tel.:  <!-- $Include var/templates/it/10-N_Telefono.txt --> - Fax:  <!-- $Include var/templates/it/11-N_Fax.txt --></paragraph>
+
+<!-- $EndBlock row4 -->
+
+<!-- $BeginBlock row5 -->
+
+	<paragraph top="15+54*2+6+8+8" left="109+3" fontsize="10" fontstyle="B" position="absolute" border="0" width="80" textalign="C">In caso di ritrovamento si prega di inviarlo a:</paragraph>
+	
+	<paragraph top="15+54*2+11+8+8" left="109+3" fontsize="9" fontstyle="B" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --></paragraph>
+	<paragraph top="15+54*2+15+8+8" left="109+3" fontsize="9" fontstyle="B" position="absolute" border="0" width="80" textalign="C" lineheight="5" fontcolor="#000000"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>
+	<paragraph top="15+54*2+19+8+8" left="109+3" fontsize="9" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000"><!-- $Include var/templates/it/04-Indirizzo_1.txt --> - <!-- $Include var/templates/it/05-Indirizzo_2.txt --></paragraph>
+
+	<paragraph top="15+54*2+27+8+8" left="109+3" fontsize="10" fontstyle="B" position="absolute" border="0" width="80" textalign="C">o di mettersi in contatto con noi:</paragraph>
+	
+	<paragraph top="15+54*2+32+8+8" left="109+3" fontsize="8" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000">Sito Web:  <!-- $Include var/templates/it/07-Indirizzo_Web.txt --></paragraph>
+	<paragraph top="15+54*2+36+8+8" left="109+3" fontsize="8" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000">E-Mail:  <!-- $Include var/templates/it/08-Indirizzo_eMail.txt --></paragraph>
+	<paragraph top="15+54*2+40+8+8" left="109+3" fontsize="8" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000">PEC:  <!-- $Include var/templates/it/09-Indirizzo_PEC.txt --></paragraph>
+
+	<paragraph top="15+54*2+45+8+8" left="109+3" fontsize="8" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000">Tel.:  <!-- $Include var/templates/it/10-N_Telefono.txt --> - Fax:  <!-- $Include var/templates/it/11-N_Fax.txt --></paragraph>
+
+<!-- $EndBlock row5 -->
+
+<!-- $BeginBlock row6 -->
+
+	<paragraph top="15+54*2+6+8+8" left="15+3" fontsize="10" fontstyle="B" position="absolute" border="0" width="80" textalign="C">In caso di ritrovamento si prega di inviarlo a:</paragraph>
+	
+	<paragraph top="15+54*2+11+8+8" left="15+3" fontsize="9" fontstyle="B" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --></paragraph>
+	<paragraph top="15+54*2+15+8+8" left="15+3" fontsize="9" fontstyle="B" position="absolute" border="0" width="80" textalign="C" lineheight="5" fontcolor="#000000"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>
+	<paragraph top="15+54*2+19+8+8" left="15+3" fontsize="9" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000"><!-- $Include var/templates/it/04-Indirizzo_1.txt --> - <!-- $Include var/templates/it/05-Indirizzo_2.txt --></paragraph>
+
+	<paragraph top="15+54*2+27+8+8" left="15+3" fontsize="10" fontstyle="B" position="absolute" border="0" width="80" textalign="C">o di mettersi in contatto con noi:</paragraph>
+	
+	<paragraph top="15+54*2+32+8+8" left="15+3" fontsize="8" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000">Sito Web:  <!-- $Include var/templates/it/07-Indirizzo_Web.txt --></paragraph>
+	<paragraph top="15+54*2+36+8+8" left="15+3" fontsize="8" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000">E-Mail:  <!-- $Include var/templates/it/08-Indirizzo_eMail.txt --></paragraph>
+	<paragraph top="15+54*2+40+8+8" left="15+3" fontsize="8" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000">PEC:  <!-- $Include var/templates/it/09-Indirizzo_PEC.txt --></paragraph>
+
+	<paragraph top="15+54*2+45+8+8" left="15+3" fontsize="8" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000">Tel.:  <!-- $Include var/templates/it/10-N_Telefono.txt --> - Fax:  <!-- $Include var/templates/it/11-N_Fax.txt --></paragraph>
+
+<!-- $EndBlock row6 -->
+
+<!-- $BeginBlock row7 -->
+
+	<paragraph top="15+54*3+6+8+8+8" left="109+3" fontsize="10" fontstyle="B" position="absolute" border="0" width="80" textalign="C">In caso di ritrovamento si prega di inviarlo a:</paragraph>
+	
+	<paragraph top="15+54*3+11+8+8+8" left="109+3" fontsize="9" fontstyle="B" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --></paragraph>
+	<paragraph top="15+54*3+15+8+8+8" left="109+3" fontsize="9" fontstyle="B" position="absolute" border="0" width="80" textalign="C" lineheight="5" fontcolor="#000000"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>
+	<paragraph top="15+54*3+19+8+8+8" left="109+3" fontsize="9" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000"><!-- $Include var/templates/it/04-Indirizzo_1.txt --> - <!-- $Include var/templates/it/05-Indirizzo_2.txt --></paragraph>
+
+	<paragraph top="15+54*3+27+8+8+8" left="109+3" fontsize="10" fontstyle="B" position="absolute" border="0" width="80" textalign="C">o di mettersi in contatto con noi:</paragraph>
+	
+	<paragraph top="15+54*3+32+8+8+8" left="109+3" fontsize="8" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000">Sito Web:  <!-- $Include var/templates/it/07-Indirizzo_Web.txt --></paragraph>
+	<paragraph top="15+54*3+36+8+8+8" left="109+3" fontsize="8" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000">E-Mail:  <!-- $Include var/templates/it/08-Indirizzo_eMail.txt --></paragraph>
+	<paragraph top="15+54*3+40+8+8+8" left="109+3" fontsize="8" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000">PEC:  <!-- $Include var/templates/it/09-Indirizzo_PEC.txt --></paragraph>
+
+	<paragraph top="15+54*3+45+8+8+8" left="109+3" fontsize="8" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000">Tel.:  <!-- $Include var/templates/it/10-N_Telefono.txt --> - Fax:  <!-- $Include var/templates/it/11-N_Fax.txt --></paragraph>
+
+<!-- $EndBlock row7 -->
+
+<!-- $BeginBlock row8 -->
+
+	<paragraph top="15+54*3+6+8+8+8" left="15+3" fontsize="10" fontstyle="B" position="absolute" border="0" width="80" textalign="C">In caso di ritrovamento si prega di inviarlo a:</paragraph>
+	
+	<paragraph top="15+54*3+11+8+8+8" left="15+3" fontsize="9" fontstyle="B" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --></paragraph>
+	<paragraph top="15+54*3+15+8+8+8" left="15+3" fontsize="9" fontstyle="B" position="absolute" border="0" width="80" textalign="C" lineheight="5" fontcolor="#000000"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>
+	<paragraph top="15+54*3+19+8+8+8" left="15+3" fontsize="9" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000"><!-- $Include var/templates/it/04-Indirizzo_1.txt --> - <!-- $Include var/templates/it/05-Indirizzo_2.txt --></paragraph>
+
+	<paragraph top="15+54*3+27+8+8+8" left="15+3" fontsize="10" fontstyle="B" position="absolute" border="0" width="80" textalign="C">o di mettersi in contatto con noi:</paragraph>
+	
+	<paragraph top="15+54*3+32+8+8+8" left="15+3" fontsize="8" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000">Sito Web:  <!-- $Include var/templates/it/07-Indirizzo_Web.txt --></paragraph>
+	<paragraph top="15+54*3+36+8+8+8" left="15+3" fontsize="8" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000">E-Mail:  <!-- $Include var/templates/it/08-Indirizzo_eMail.txt --></paragraph>
+	<paragraph top="15+54*3+40+8+8+8" left="15+3" fontsize="8" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000">PEC:  <!-- $Include var/templates/it/09-Indirizzo_PEC.txt --></paragraph>
+
+	<paragraph top="15+54*3+45+8+8+8" left="15+3" fontsize="8" position="absolute" border="0" width="80" textalign="C" fontcolor="#000000">Tel.:  <!-- $Include var/templates/it/10-N_Telefono.txt --> - Fax:  <!-- $Include var/templates/it/11-N_Fax.txt --></paragraph>
+
+<!-- $EndBlock row8 -->
+
+</page>
+<!-- $EndBlock table-->
+
+</body>
+</pdf>

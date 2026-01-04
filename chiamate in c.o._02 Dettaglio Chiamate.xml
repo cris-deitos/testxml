@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+
+<pdf creator="GestionaleWeb" title="Dettaglio chiamate in C.O.">
+
+<body format='A4' unit='mm' marginleft='15' marginbottom='0'>
+
+<!-- $BeginBlock form -->
+<page font="helvetica">
+
+</page>
+<!-- $EndBlock form -->
+
+<!-- $BeginBlock table -->
+<page font="helvetica" fontsize="6">
+
+	<image top="15" left="20" height="15" width="15" position="absolute" file="<!-- $Include var/templates/it/logo.txt -->" />
+	<paragraph top="15" left="38" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --></paragraph>
+	<paragraph top="20" left="38" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>
+	<paragraph top="25" left="38" fontcolor="red" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L">Dettaglio Chiamate in Centrale Operativa</paragraph>
+
+	<paragraph position="absolute" left="135" top="15" width="60" fontsize="6" lineheight="5" textalign="L" border="1">Totale Interventi: ${totale righe tabella}
+Note:
+
+</paragraph>
+
+<!-- $BeginBlock row1 -->
+	<paragraph position="absolute" left="0" top="35+0*(118+5)" width="8" lineheight="8" fontsize="11" textalign="C" border="1">${contatore riga tabella}</paragraph>
+
+	<paragraph position="absolute" left="0" top="35+0*(118+5)" width="7" lineheight="8" fontsize="11" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="8" top="-8" width="55" lineheight="8" fontsize="9" textalign="R" border="1">CHIAMANTE:</paragraph>
+	<paragraph position="relative" left="63" top="-8" width="120" lineheight="8" fontsize="11" textalign="C" border="1">${nome chiamante}</paragraph>
+	
+	<paragraph position="absolute" left="0" top="43+0*(118+5)" width="7" lineheight="8" fontsize="11" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="8" top="-8" width="55" lineheight="8" fontsize="9" textalign="R" border="1">NUMERO DI TELEFONO:</paragraph>
+	<paragraph position="relative" left="63" top="-8" width="120" lineheight="8" fontsize="11" textalign="C" border="1">${numero chiamante}</paragraph>
+
+	<paragraph position="absolute" left="0" top="51+0*(118+5)" width="7" lineheight="8" fontsize="11" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="8" top="-8" width="55" lineheight="8" fontsize="9" textalign="R" border="1">DATA E ORA CHIAMATA:</paragraph>
+	<paragraph position="relative" left="63" top="-8" width="120" lineheight="8" fontsize="11" textalign="C" border="1">${data e ora chiamata}</paragraph>
+	
+	<paragraph position="absolute" left="0" top="59+0*(118+5)" width="7" lineheight="8" fontsize="11" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="8" top="-8" width="55" lineheight="8" fontsize="9" textalign="R" border="1">STATO INTERVENTO</paragraph>
+	<paragraph position="relative" left="63" top="-8" width="120" lineheight="8" fontsize="11" textalign="C" border="1">${stato intervento}</paragraph>
+
+	<paragraph position="absolute" left="0" top="67+0*(118+5)" width="7" lineheight="8" fontsize="11" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="8" top="-8" width="55" lineheight="8" fontsize="9" textalign="R" border="1">OGGETTO CHIAMATA:</paragraph>
+	<paragraph position="relative" left="63" top="-8" width="120" lineheight="8" fontsize="11" textalign="C" border="1">${oggetto chiamata}</paragraph>
+
+	<paragraph position="absolute" left="0" top="75+0*(118+5)" width="7" lineheight="20" fontsize="11" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="8" top="-20" width="55" lineheight="20" fontsize="9" textalign="R" border="1">DESCRIZIONE CHIAMATA:</paragraph>
+	<paragraph position="relative" left="63" top="-20" width="120" lineheight="20" fontsize="11" textalign="C" border="1"></paragraph>
+	<paragraph position="relative" left="64" top="-19" width="118" lineheight="5" fontsize="11" textalign="J" border="0">${informazioni sulla chiamata}</paragraph>
+
+	<paragraph position="absolute" left="0" top="95+0*(118+5)" width="7" lineheight="8" fontsize="11" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="8" top="-8" width="55" lineheight="8" fontsize="9" textalign="R" border="1">DATA E ORA ARRIVO SUL POSTO:</paragraph>
+	<paragraph position="relative" left="63" top="-8" width="120" lineheight="8" fontsize="11" textalign="C" border="1">${data e ora arrivo sul posto}</paragraph>
+	
+	<paragraph position="absolute" left="0" top="103+0*(118+5)" width="7" lineheight="42" fontsize="11" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="8" top="-42" width="55" lineheight="42" fontsize="9" textalign="R" border="1">DESCRIZIONE INTERVENTO:</paragraph>
+	<paragraph position="relative" left="63" top="-42" width="120" lineheight="42" fontsize="11" textalign="C" border="1"></paragraph>
+	<paragraph position="relative" left="64" top="-41" width="118" lineheight="4.3" fontsize="11" textalign="J" border="0">${descrizione}</paragraph>
+	
+	<paragraph position="absolute" left="0" top="145+0*(118+5)" width="7" lineheight="8" fontsize="11" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="8" top="-8" width="55" lineheight="8" fontsize="9" textalign="R" border="1">DATA E ORA FINE INTERVENTO:</paragraph>
+	<paragraph position="relative" left="63" top="-8" width="120" lineheight="8" fontsize="11" textalign="C" border="1">${data e ora fine intervento}</paragraph>
+	
+	<!-- $EndBlock row1 -->
+
+<!-- $BeginBlock row2 -->
+	<paragraph position="absolute" left="0" top="35+1*(118+5)" width="8" lineheight="8" fontsize="11" textalign="C" border="1">${contatore riga tabella}</paragraph>
+
+	<paragraph position="absolute" left="0" top="35+1*(118+5)" width="7" lineheight="8" fontsize="11" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="8" top="-8" width="55" lineheight="8" fontsize="9" textalign="R" border="1">CHIAMANTE:</paragraph>
+	<paragraph position="relative" left="63" top="-8" width="120" lineheight="8" fontsize="11" textalign="C" border="1">${nome chiamante}</paragraph>
+	
+	<paragraph position="absolute" left="0" top="43+1*(118+5)" width="7" lineheight="8" fontsize="11" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="8" top="-8" width="55" lineheight="8" fontsize="9" textalign="R" border="1">NUMERO DI TELEFONO:</paragraph>
+	<paragraph position="relative" left="63" top="-8" width="120" lineheight="8" fontsize="11" textalign="C" border="1">${numero chiamante}</paragraph>
+
+	<paragraph position="absolute" left="0" top="51+1*(118+5)" width="7" lineheight="8" fontsize="11" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="8" top="-8" width="55" lineheight="8" fontsize="9" textalign="R" border="1">DATA E ORA CHIAMATA:</paragraph>
+	<paragraph position="relative" left="63" top="-8" width="120" lineheight="8" fontsize="11" textalign="C" border="1">${data e ora chiamata}</paragraph>
+	
+	<paragraph position="absolute" left="0" top="59+1*(118+5)" width="7" lineheight="8" fontsize="11" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="8" top="-8" width="55" lineheight="8" fontsize="9" textalign="R" border="1">STATO INTERVENTO</paragraph>
+	<paragraph position="relative" left="63" top="-8" width="120" lineheight="8" fontsize="11" textalign="C" border="1">${stato intervento}</paragraph>
+
+	<paragraph position="absolute" left="0" top="67+1*(118+5)" width="7" lineheight="8" fontsize="11" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="8" top="-8" width="55" lineheight="8" fontsize="9" textalign="R" border="1">OGGETTO CHIAMATA:</paragraph>
+	<paragraph position="relative" left="63" top="-8" width="120" lineheight="8" fontsize="11" textalign="C" border="1">${oggetto chiamata}</paragraph>
+
+	<paragraph position="absolute" left="0" top="75+1*(118+5)" width="7" lineheight="20" fontsize="11" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="8" top="-20" width="55" lineheight="20" fontsize="9" textalign="R" border="1">DESCRIZIONE CHIAMATA:</paragraph>
+	<paragraph position="relative" left="63" top="-20" width="120" lineheight="20" fontsize="11" textalign="C" border="1"></paragraph>
+	<paragraph position="relative" left="64" top="-19" width="118" lineheight="5" fontsize="11" textalign="J" border="0">${informazioni sulla chiamata}</paragraph>
+
+	<paragraph position="absolute" left="0" top="95+1*(118+5)" width="7" lineheight="8" fontsize="11" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="8" top="-8" width="55" lineheight="8" fontsize="9" textalign="R" border="1">DATA E ORA ARRIVO SUL POSTO:</paragraph>
+	<paragraph position="relative" left="63" top="-8" width="120" lineheight="8" fontsize="11" textalign="C" border="1">${data e ora arrivo sul posto}</paragraph>
+	
+	<paragraph position="absolute" left="0" top="103+1*(118+5)" width="7" lineheight="42" fontsize="11" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="8" top="-42" width="55" lineheight="42" fontsize="9" textalign="R" border="1">DESCRIZIONE INTERVENTO:</paragraph>
+	<paragraph position="relative" left="63" top="-42" width="120" lineheight="42" fontsize="11" textalign="C" border="1"></paragraph>
+	<paragraph position="relative" left="64" top="-41" width="118" lineheight="4.3" fontsize="11" textalign="J" border="0">${descrizione}</paragraph>
+	
+	<paragraph position="absolute" left="0" top="145+1*(118+5)" width="7" lineheight="8" fontsize="11" textalign="L" border="0"></paragraph>
+	<paragraph position="relative" left="8" top="-8" width="55" lineheight="8" fontsize="9" textalign="R" border="1">DATA E ORA FINE INTERVENTO:</paragraph>
+	<paragraph position="relative" left="63" top="-8" width="120" lineheight="8" fontsize="11" textalign="C" border="1">${data e ora fine intervento}</paragraph>
+
+<!-- $EndBlock row2 -->
+
+
+<paragraph position="absolute" left="0" width="180" top="275" lineheight="5" fontsize="6.5" textalign="R" border="0">
+Data/ora stampa: ${data/ora applicazione modello}
+</paragraph>
+
+
+</page>
+<!-- $EndBlock table-->
+
+</body>
+</pdf>

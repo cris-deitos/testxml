@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+
+<pdf creator="GestionaleWeb" title="Ricevuta Fiscale">
+
+<body format="A4" unit='mm' marginleft='15' marginbottom='0'>
+
+<!-- $BeginBlock form -->
+<page font="helvetica" >
+
+</page>
+<!-- $EndBlock form -->
+
+<!-- $BeginBlock table -->
+<page font="helvetica" fontsize="6">
+
+	<image top="15" left="20" height="30" width="30" position="absolute" file="<!-- $Include var/templates/it/logo.txt -->" />
+
+	<paragraph top="15" left="50" fontsize="12" fontstyle="B" position="absolute" border="0" width="140" textalign="C"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --> <!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>
+
+	<paragraph top="22" left="50" fontsize="12" position="absolute" border="0" width="140" textalign="C">Organizzazione di Volontariato</paragraph>
+
+	<paragraph top="34" left="50" fontsize="12" position="absolute" border="0" width="140" textalign="C"><!-- $Include var/templates/it/04-Indirizzo_1.txt --> - <!-- $Include var/templates/it/05-Indirizzo_2.txt --></paragraph>
+
+	<paragraph top="40" left="50" fontsize="12" fontstyle="B" position="absolute" border="0" width="140" textalign="C">Codice Fiscale: <!-- $Include var/templates/it/03-Codice_Fiscale.txt --></paragraph>
+
+	<paragraph top="55" left="20" fontsize="17" fontstyle="B" position="absolute" border="0" width="170" textalign="C" fontcolor="#000cff">RICEVUTA</paragraph>
+	
+	<paragraph top="275" left="20" fontsize="11" position="absolute" border="0" width="170" textalign="L">Gestionale Web</paragraph>
+	
+	<paragraph top="275" left="20" fontsize="11" position="absolute" border="0" width="170" textalign="R">FORMATO A4</paragraph>
+<!-- $BeginBlock row1 -->
+
+
+	<box top="72" left="20" right="130" bottom="72+50" /> <!--Box Intestazione-->
+		<paragraph top="75" left="22" fontsize="12" fontstyle="B" position="absolute" border="0" width="86" textalign="L">Intestazione Documento:</paragraph>
+			<paragraph top="75+10" left="22" fontsize="14" position="absolute" border="0" width="106" textalign="L">${MITTENTE}</paragraph>
+			<paragraph top="75+23" left="22" fontsize="12" position="absolute" border="0" width="106" textalign="L">${INDIRIZZO COMPLETO}</paragraph>
+	
+	<box top="72" left="130" right="130+60" bottom="72+25" /><!--Box Num. Ricevuta-->
+		<paragraph top="75" left="132" fontsize="12" fontstyle="B" position="absolute" border="0" width="56" textalign="C">Numero Documento:</paragraph>
+			<paragraph top="75+10" left="132" fontsize="14" position="absolute" border="0" width="56" textalign="C">${NUMERO RICEVUTA}</paragraph>
+	
+	<box top="72+25" left="130" right="130+60" bottom="72+25+25" /><!--Box Data-->
+		<paragraph top="75+25" left="132" fontsize="12" fontstyle="B" position="absolute" border="0" width="56" textalign="C">Data Documento:</paragraph>
+			<paragraph top="75+35" left="132" fontsize="14" position="absolute" border="0" width="56" textalign="C">${DATA}</paragraph>
+	
+	<box top="122" left="20" right="190" bottom="122+15" /> <!--Box P. IVA-->
+		<paragraph top="128" left="22" fontsize="12" fontstyle="B" position="absolute" border="0" width="70" textalign="L">Codice Fiscale o Partita IVA:</paragraph>
+			<paragraph top="128" left="97" fontsize="14" position="absolute" border="0" width="91" textalign="L">${CODICE FISCALE O P. IVA}</paragraph>
+	
+	<box top="150" left="20" right="190" bottom="150+80" /> <!--Box Descrizione-->
+		<paragraph top="153" left="22" fontsize="12" fontstyle="B" position="absolute" border="0" width="166" textalign="L">Descrizione:</paragraph>
+			<paragraph top="153+10" left="22" fontsize="14" position="absolute" border="0" width="166" textalign="L">${DESCRIZIONE}</paragraph>
+	
+	
+	<box top="245" left="20" right="130" bottom="245+25" /> <!--Box IVA-->
+		<paragraph top="248" left="22" fontsize="12" fontstyle="B" position="absolute" border="0" width="106" textalign="C">Descrizione Aliquota:</paragraph>
+			<paragraph top="248+10" left="22" fontsize="14" position="absolute" border="0" width="106" textalign="C">Non Imponibile L. 266/1991</paragraph>
+	
+	<box top="245" left="130" right="130+60" bottom="245+25" /><!--Box TOTALE-->
+		<paragraph top="248" left="132" fontsize="12" fontstyle="B" position="absolute" border="0" width="56" textalign="C">Totale Documento:</paragraph>
+			<paragraph top="248+10" left="132" fontsize="14" position="absolute" border="0" width="56" textalign="C">Euro ${IMPORTO}</paragraph>
+<!-- $EndBlock row1 -->
+
+
+</page>
+<!-- $EndBlock table-->
+
+</body>
+</pdf>

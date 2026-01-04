@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+
+<pdf creator="GestionaleWeb" title="Scheda Danneggiamento">
+
+<body format='A4' unit='mm' marginleft='15' marginbottom='0'>
+
+<!-- $BeginBlock form -->
+
+
+
+<page font="helvetica" fontsize="6">
+
+	<image top="15" left="20" height="15" width="15" position="absolute" file="<!-- $Include var/templates/it/logo.txt -->" />
+	<paragraph top="15" left="38" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --></paragraph>
+	<paragraph top="20" left="38" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>
+	<paragraph top="25" left="38" fontcolor="red" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L">Scheda Danneggiamento</paragraph>
+
+	<paragraph position="absolute" left="135" top="35" width="60" fontsize="11" lineheight="8" textalign="L" border="0" fontstyle="B">
+Al Responsabile Logistica
+
+E per conoscenza
+Al Presidente
+
+</paragraph>
+
+	<paragraph position="absolute" left="0" top="80" width="180" fontsize="10" lineheight="8" textalign="L" border="0">
+Oggetto: Segnalazione Danneggiamento ${tipo}
+
+Io sottoscritto/a ${cognome} ${nome}, segnalo il danneggiamento del ${tipo} ${mezzo/attrezzatura}, avvenuto il giorno ${data danneggiamento}.
+
+Descrizione dell'accaduto:
+${descrizione}
+
+</paragraph>
+
+
+<paragraph position="relative" left="0" width="40" fontsize="10" lineheight="8" textalign="C" border="0">Data
+${data segnalazione}</paragraph>
+
+<paragraph position="relative" left="100" width="80" fontsize="10" lineheight="8" textalign="C" border="0">Firma
+________________________________
+
+
+</paragraph>
+
+
+<paragraph position="relative" left="100" width="80" fontsize="10" lineheight="8" textalign="C" border="0">PER PRESA VISIONE
+Il Responsabile Logistica
+________________________________</paragraph>
+
+<paragraph position="absolute" top="277" left="15" width="180" lineheight="5" fontsize="7" textalign="R" border="0">Verbale per Danneggiamento Num.: ${numero segnalazione}</paragraph>	
+
+</page>
+
+
+<!-- $EndBlock form -->
+
+<!-- $BeginBlock table -->
+<page font="helvetica" fontsize="10">
+<!-- $BeginBlock row1 -->
+	
+	<image top="15" left="20" height="15" width="15" position="absolute" file="<!-- $Include var/templates/it/logo.txt -->" />
+	<paragraph top="15" left="38" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --></paragraph>
+	<paragraph top="20" left="38" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>
+	<paragraph top="25" left="38" fontcolor="red" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L">Scheda Danneggiamento</paragraph>
+
+	<paragraph position="absolute" left="135" top="35" width="60" fontsize="11" lineheight="8" textalign="L" border="0" fontstyle="B">
+Al Responsabile Logistica
+
+E per conoscenza
+Al Presidente
+
+</paragraph>
+
+	<paragraph position="absolute" left="0" top="80" width="180" fontsize="10" lineheight="8" textalign="L" border="0">
+Oggetto: Segnalazione Danneggiamento ${tipo}
+
+Io sottoscritto/a ${cognome} ${nome}, segnalo il danneggiamento del ${tipo} ${mezzo/attrezzatura}, avvenuto il giorno ${data danneggiamento}.
+
+Descrizione dell'accaduto:
+${descrizione}
+
+</paragraph>
+
+
+<paragraph position="relative" left="0" width="40" fontsize="10" lineheight="8" textalign="C" border="0">Data
+${data segnalazione}</paragraph>
+
+<paragraph position="relative" left="100" width="80" fontsize="10" lineheight="8" textalign="C" border="0">Firma
+________________________________
+
+
+</paragraph>
+
+
+<paragraph position="relative" left="100" width="80" fontsize="10" lineheight="8" textalign="C" border="0">PER PRESA VISIONE
+Il Responsabile Logistica
+________________________________</paragraph>
+
+<paragraph position="absolute" top="260" left="15" width="180" lineheight="5" fontsize="7" textalign="R" border="0">
+Verbale per Danneggiamento Num.: ${numero segnalazione}
+</paragraph>	
+
+
+<!-- $EndBlock row1 -->
+
+
+<paragraph position="absolute" left="0" width="180" top="271" lineheight="5" fontsize="8" textalign="C" border="0" fontstyle="B"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --> <!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --> - Organizzazione di Volontariato</paragraph>
+
+<paragraph position="absolute" left="0" width="180" top="276" lineheight="4" fontsize="7" textalign="C" border="0">Codice Fiscale: <!-- $Include var/templates/it/03-Codice_Fiscale.txt -->
+<!-- $Include var/templates/it/04-Indirizzo_1.txt --> - <!-- $Include var/templates/it/05-Indirizzo_2.txt -->
+Sito Web: <!-- $Include var/templates/it/07-Indirizzo_Web.txt --> - Indirizzo E-Mail: <!-- $Include var/templates/it/08-Indirizzo_eMail.txt --></paragraph>
+
+</page>
+<!-- $EndBlock table-->
+
+
+
+</body>
+</pdf>

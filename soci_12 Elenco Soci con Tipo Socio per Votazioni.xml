@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+
+<pdf creator="GestionaleWeb" title="Elenco Soci per Votazioni">
+
+<body format='A4' unit='mm' marginleft='10' marginbottom='0'>
+
+<!-- $BeginBlock form -->
+<page font="helvetica">
+
+</page>
+<!-- $EndBlock form -->
+
+<!-- $BeginBlock table -->
+<page font="helvetica" fontsize="6">
+
+	<image top="10" left="20" height="15" width="15" position="absolute" file="<!-- $Include var/templates/it/logo.txt -->" />
+	<paragraph top="10" left="38" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --></paragraph>
+	<paragraph top="15" left="38" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>
+	<paragraph top="20" left="38" fontcolor="red" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L">Elenco Soci</paragraph>
+
+	<paragraph position="absolute" left="135" top="10" width="67" fontsize="6" lineheight="5" textalign="L" border="1">Totale Soci Estratti: ${totale righe tabella}
+Note: Elenco per Votazioni in Assemblea dei Soci.
+
+</paragraph>
+
+	<paragraph position="absolute" left="10" top="30" width="10" lineheight="8" fontsize="8" textalign="L" border="0">Matr.</paragraph>
+	<paragraph position="absolute" left="10+10" top="30" width="48" lineheight="8" fontsize="8" textalign="L" border="0">Socio</paragraph>
+	<paragraph position="absolute" left="10+10+48" top="30" width="35" lineheight="8" fontsize="8" textalign="L" border="0">Tipo Socio</paragraph>
+	<paragraph position="absolute" left="10+10+48+35" top="30" width="35" lineheight="8" fontsize="8" textalign="L" border="0">Firma (se presente)</paragraph>
+	<paragraph position="absolute" left="10+10+48+35+35" top="30" width="18" lineheight="8" fontsize="8" textalign="L" border="0">Delega</paragraph>
+	<paragraph position="absolute" left="10+10+48+35+35+18" top="30" width="46" lineheight="8" fontsize="8" textalign="L" border="0">Delegato (nome cognome)</paragraph>
+	
+<!-- $BeginBlock row1 -->
+	<paragraph position="absolute" left="0" top="38" width="10" lineheight="8" fontsize="8" textalign="C" border="1">${matricola}</paragraph>
+	<paragraph position="relative" left="10" top="-8" width="48" lineheight="8" fontsize="8" textalign="C" border="1">${cognome} ${nome}</paragraph>
+	<paragraph position="relative" left="10+48" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1">${tipo socio}</paragraph>
+	<paragraph position="relative" left="10+48+35" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35" top="-8" width="18" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35+18" top="-8" width="46" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+<!-- $EndBlock row1 -->
+
+<!-- $BeginBlock row2 -->
+	<paragraph position="relative" left="0" width="10" lineheight="8" fontsize="8" textalign="C" border="1">${matricola}</paragraph>
+	<paragraph position="relative" left="10" top="-8" width="48" lineheight="8" fontsize="8" textalign="C" border="1">${cognome} ${nome}</paragraph>
+	<paragraph position="relative" left="10+48" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1">${tipo socio}</paragraph>
+	<paragraph position="relative" left="10+48+35" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35" top="-8" width="18" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35+18" top="-8" width="46" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+<!-- $EndBlock row2 -->
+
+<!-- $BeginBlock row3 -->
+	<paragraph position="relative" left="0" width="10" lineheight="8" fontsize="8" textalign="C" border="1">${matricola}</paragraph>
+	<paragraph position="relative" left="10" top="-8" width="48" lineheight="8" fontsize="8" textalign="C" border="1">${cognome} ${nome}</paragraph>
+	<paragraph position="relative" left="10+48" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1">${tipo socio}</paragraph>
+	<paragraph position="relative" left="10+48+35" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35" top="-8" width="18" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35+18" top="-8" width="46" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+<!-- $EndBlock row3 -->
+
+<!-- $BeginBlock row4 -->
+	<paragraph position="relative" left="0" width="10" lineheight="8" fontsize="8" textalign="C" border="1">${matricola}</paragraph>
+	<paragraph position="relative" left="10" top="-8" width="48" lineheight="8" fontsize="8" textalign="C" border="1">${cognome} ${nome}</paragraph>
+	<paragraph position="relative" left="10+48" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1">${tipo socio}</paragraph>
+	<paragraph position="relative" left="10+48+35" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35" top="-8" width="18" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35+18" top="-8" width="46" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+<!-- $EndBlock row4 -->
+
+<!-- $BeginBlock row5 -->
+	<paragraph position="relative" left="0" width="10" lineheight="8" fontsize="8" textalign="C" border="1">${matricola}</paragraph>
+	<paragraph position="relative" left="10" top="-8" width="48" lineheight="8" fontsize="8" textalign="C" border="1">${cognome} ${nome}</paragraph>
+	<paragraph position="relative" left="10+48" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1">${tipo socio}</paragraph>
+	<paragraph position="relative" left="10+48+35" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35" top="-8" width="18" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35+18" top="-8" width="46" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+<!-- $EndBlock row5 -->
+
+<!-- $BeginBlock row6 -->
+	<paragraph position="relative" left="0" width="10" lineheight="8" fontsize="8" textalign="C" border="1">${matricola}</paragraph>
+	<paragraph position="relative" left="10" top="-8" width="48" lineheight="8" fontsize="8" textalign="C" border="1">${cognome} ${nome}</paragraph>
+	<paragraph position="relative" left="10+48" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1">${tipo socio}</paragraph>
+	<paragraph position="relative" left="10+48+35" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35" top="-8" width="18" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35+18" top="-8" width="46" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+<!-- $EndBlock row6 -->
+
+<!-- $BeginBlock row7 -->
+	<paragraph position="relative" left="0" width="10" lineheight="8" fontsize="8" textalign="C" border="1">${matricola}</paragraph>
+	<paragraph position="relative" left="10" top="-8" width="48" lineheight="8" fontsize="8" textalign="C" border="1">${cognome} ${nome}</paragraph>
+	<paragraph position="relative" left="10+48" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1">${tipo socio}</paragraph>
+	<paragraph position="relative" left="10+48+35" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35" top="-8" width="18" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35+18" top="-8" width="46" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+<!-- $EndBlock row7 -->
+
+<!-- $BeginBlock row8 -->
+	<paragraph position="relative" left="0" width="10" lineheight="8" fontsize="8" textalign="C" border="1">${matricola}</paragraph>
+	<paragraph position="relative" left="10" top="-8" width="48" lineheight="8" fontsize="8" textalign="C" border="1">${cognome} ${nome}</paragraph>
+	<paragraph position="relative" left="10+48" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1">${tipo socio}</paragraph>
+	<paragraph position="relative" left="10+48+35" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35" top="-8" width="18" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35+18" top="-8" width="46" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+<!-- $EndBlock row8 -->
+
+<!-- $BeginBlock row9 -->
+	<paragraph position="relative" left="0" width="10" lineheight="8" fontsize="8" textalign="C" border="1">${matricola}</paragraph>
+	<paragraph position="relative" left="10" top="-8" width="48" lineheight="8" fontsize="8" textalign="C" border="1">${cognome} ${nome}</paragraph>
+	<paragraph position="relative" left="10+48" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1">${tipo socio}</paragraph>
+	<paragraph position="relative" left="10+48+35" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35" top="-8" width="18" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35+18" top="-8" width="46" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+<!-- $EndBlock row9 -->
+
+<!-- $BeginBlock row10 -->
+	<paragraph position="relative" left="0" width="10" lineheight="8" fontsize="8" textalign="C" border="1">${matricola}</paragraph>
+	<paragraph position="relative" left="10" top="-8" width="48" lineheight="8" fontsize="8" textalign="C" border="1">${cognome} ${nome}</paragraph>
+	<paragraph position="relative" left="10+48" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1">${tipo socio}</paragraph>
+	<paragraph position="relative" left="10+48+35" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35" top="-8" width="18" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35+18" top="-8" width="46" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+<!-- $EndBlock row10 -->
+
+<!-- $BeginBlock row11 -->
+	<paragraph position="relative" left="0" width="10" lineheight="8" fontsize="8" textalign="C" border="1">${matricola}</paragraph>
+	<paragraph position="relative" left="10" top="-8" width="48" lineheight="8" fontsize="8" textalign="C" border="1">${cognome} ${nome}</paragraph>
+	<paragraph position="relative" left="10+48" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1">${tipo socio}</paragraph>
+	<paragraph position="relative" left="10+48+35" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35" top="-8" width="18" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35+18" top="-8" width="46" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+<!-- $EndBlock row11 -->
+
+<!-- $BeginBlock row12 -->
+	<paragraph position="relative" left="0" width="10" lineheight="8" fontsize="8" textalign="C" border="1">${matricola}</paragraph>
+	<paragraph position="relative" left="10" top="-8" width="48" lineheight="8" fontsize="8" textalign="C" border="1">${cognome} ${nome}</paragraph>
+	<paragraph position="relative" left="10+48" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1">${tipo socio}</paragraph>
+	<paragraph position="relative" left="10+48+35" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35" top="-8" width="18" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35+18" top="-8" width="46" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+<!-- $EndBlock row12 -->
+
+<!-- $BeginBlock row13 -->
+	<paragraph position="relative" left="0" width="10" lineheight="8" fontsize="8" textalign="C" border="1">${matricola}</paragraph>
+	<paragraph position="relative" left="10" top="-8" width="48" lineheight="8" fontsize="8" textalign="C" border="1">${cognome} ${nome}</paragraph>
+	<paragraph position="relative" left="10+48" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1">${tipo socio}</paragraph>
+	<paragraph position="relative" left="10+48+35" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35" top="-8" width="18" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35+18" top="-8" width="46" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+<!-- $EndBlock row13 -->
+
+<!-- $BeginBlock row14 -->
+	<paragraph position="relative" left="0" width="10" lineheight="8" fontsize="8" textalign="C" border="1">${matricola}</paragraph>
+	<paragraph position="relative" left="10" top="-8" width="48" lineheight="8" fontsize="8" textalign="C" border="1">${cognome} ${nome}</paragraph>
+	<paragraph position="relative" left="10+48" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1">${tipo socio}</paragraph>
+	<paragraph position="relative" left="10+48+35" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35" top="-8" width="18" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35+18" top="-8" width="46" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+<!-- $EndBlock row14 -->
+
+<!-- $BeginBlock row15 -->
+	<paragraph position="relative" left="0" width="10" lineheight="8" fontsize="8" textalign="C" border="1">${matricola}</paragraph>
+	<paragraph position="relative" left="10" top="-8" width="48" lineheight="8" fontsize="8" textalign="C" border="1">${cognome} ${nome}</paragraph>
+	<paragraph position="relative" left="10+48" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1">${tipo socio}</paragraph>
+	<paragraph position="relative" left="10+48+35" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35" top="-8" width="18" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35+18" top="-8" width="46" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+<!-- $EndBlock row15 -->
+
+<!-- $BeginBlock row16 -->
+	<paragraph position="relative" left="0" width="10" lineheight="8" fontsize="8" textalign="C" border="1">${matricola}</paragraph>
+	<paragraph position="relative" left="10" top="-8" width="48" lineheight="8" fontsize="8" textalign="C" border="1">${cognome} ${nome}</paragraph>
+	<paragraph position="relative" left="10+48" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1">${tipo socio}</paragraph>
+	<paragraph position="relative" left="10+48+35" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35" top="-8" width="18" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35+18" top="-8" width="46" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+<!-- $EndBlock row16 -->
+
+<!-- $BeginBlock row17 -->
+	<paragraph position="relative" left="0" width="10" lineheight="8" fontsize="8" textalign="C" border="1">${matricola}</paragraph>
+	<paragraph position="relative" left="10" top="-8" width="48" lineheight="8" fontsize="8" textalign="C" border="1">${cognome} ${nome}</paragraph>
+	<paragraph position="relative" left="10+48" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1">${tipo socio}</paragraph>
+	<paragraph position="relative" left="10+48+35" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35" top="-8" width="18" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35+18" top="-8" width="46" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+<!-- $EndBlock row17 -->
+
+<!-- $BeginBlock row18 -->
+	<paragraph position="relative" left="0" width="10" lineheight="8" fontsize="8" textalign="C" border="1">${matricola}</paragraph>
+	<paragraph position="relative" left="10" top="-8" width="48" lineheight="8" fontsize="8" textalign="C" border="1">${cognome} ${nome}</paragraph>
+	<paragraph position="relative" left="10+48" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1">${tipo socio}</paragraph>
+	<paragraph position="relative" left="10+48+35" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35" top="-8" width="18" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35+18" top="-8" width="46" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+<!-- $EndBlock row18 -->
+
+<!-- $BeginBlock row19 -->
+	<paragraph position="relative" left="0" width="10" lineheight="8" fontsize="8" textalign="C" border="1">${matricola}</paragraph>
+	<paragraph position="relative" left="10" top="-8" width="48" lineheight="8" fontsize="8" textalign="C" border="1">${cognome} ${nome}</paragraph>
+	<paragraph position="relative" left="10+48" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1">${tipo socio}</paragraph>
+	<paragraph position="relative" left="10+48+35" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35" top="-8" width="18" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35+18" top="-8" width="46" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+<!-- $EndBlock row19 -->
+
+<!-- $BeginBlock row20 -->
+	<paragraph position="relative" left="0" width="10" lineheight="8" fontsize="8" textalign="C" border="1">${matricola}</paragraph>
+	<paragraph position="relative" left="10" top="-8" width="48" lineheight="8" fontsize="8" textalign="C" border="1">${cognome} ${nome}</paragraph>
+	<paragraph position="relative" left="10+48" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1">${tipo socio}</paragraph>
+	<paragraph position="relative" left="10+48+35" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35" top="-8" width="18" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35+18" top="-8" width="46" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+<!-- $EndBlock row20 -->
+
+<!-- $BeginBlock row21 -->
+	<paragraph position="relative" left="0" width="10" lineheight="8" fontsize="8" textalign="C" border="1">${matricola}</paragraph>
+	<paragraph position="relative" left="10" top="-8" width="48" lineheight="8" fontsize="8" textalign="C" border="1">${cognome} ${nome}</paragraph>
+	<paragraph position="relative" left="10+48" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1">${tipo socio}</paragraph>
+	<paragraph position="relative" left="10+48+35" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35" top="-8" width="18" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35+18" top="-8" width="46" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+<!-- $EndBlock row21 -->
+
+<!-- $BeginBlock row22 -->
+	<paragraph position="relative" left="0" width="10" lineheight="8" fontsize="8" textalign="C" border="1">${matricola}</paragraph>
+	<paragraph position="relative" left="10" top="-8" width="48" lineheight="8" fontsize="8" textalign="C" border="1">${cognome} ${nome}</paragraph>
+	<paragraph position="relative" left="10+48" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1">${tipo socio}</paragraph>
+	<paragraph position="relative" left="10+48+35" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35" top="-8" width="18" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35+18" top="-8" width="46" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+<!-- $EndBlock row22 -->
+
+<!-- $BeginBlock row23 -->
+	<paragraph position="relative" left="0" width="10" lineheight="8" fontsize="8" textalign="C" border="1">${matricola}</paragraph>
+	<paragraph position="relative" left="10" top="-8" width="48" lineheight="8" fontsize="8" textalign="C" border="1">${cognome} ${nome}</paragraph>
+	<paragraph position="relative" left="10+48" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1">${tipo socio}</paragraph>
+	<paragraph position="relative" left="10+48+35" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35" top="-8" width="18" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35+18" top="-8" width="46" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+<!-- $EndBlock row23 -->
+
+<!-- $BeginBlock row24 -->
+	<paragraph position="relative" left="0" width="10" lineheight="8" fontsize="8" textalign="C" border="1">${matricola}</paragraph>
+	<paragraph position="relative" left="10" top="-8" width="48" lineheight="8" fontsize="8" textalign="C" border="1">${cognome} ${nome}</paragraph>
+	<paragraph position="relative" left="10+48" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1">${tipo socio}</paragraph>
+	<paragraph position="relative" left="10+48+35" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35" top="-8" width="18" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35+18" top="-8" width="46" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+<!-- $EndBlock row24 -->
+
+<!-- $BeginBlock row25 -->
+	<paragraph position="relative" left="0" width="10" lineheight="8" fontsize="8" textalign="C" border="1">${matricola}</paragraph>
+	<paragraph position="relative" left="10" top="-8" width="48" lineheight="8" fontsize="8" textalign="C" border="1">${cognome} ${nome}</paragraph>
+	<paragraph position="relative" left="10+48" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1">${tipo socio}</paragraph>
+	<paragraph position="relative" left="10+48+35" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35" top="-8" width="18" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35+18" top="-8" width="46" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+<!-- $EndBlock row25 -->
+
+<!-- $BeginBlock row26 -->
+	<paragraph position="relative" left="0" width="10" lineheight="8" fontsize="8" textalign="C" border="1">${matricola}</paragraph>
+	<paragraph position="relative" left="10" top="-8" width="48" lineheight="8" fontsize="8" textalign="C" border="1">${cognome} ${nome}</paragraph>
+	<paragraph position="relative" left="10+48" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1">${tipo socio}</paragraph>
+	<paragraph position="relative" left="10+48+35" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35" top="-8" width="18" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35+18" top="-8" width="46" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+<!-- $EndBlock row26 -->
+
+<!-- $BeginBlock row27 -->
+	<paragraph position="relative" left="0" width="10" lineheight="8" fontsize="8" textalign="C" border="1">${matricola}</paragraph>
+	<paragraph position="relative" left="10" top="-8" width="48" lineheight="8" fontsize="8" textalign="C" border="1">${cognome} ${nome}</paragraph>
+	<paragraph position="relative" left="10+48" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1">${tipo socio}</paragraph>
+	<paragraph position="relative" left="10+48+35" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35" top="-8" width="18" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35+18" top="-8" width="46" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+<!-- $EndBlock row27 -->
+
+<!-- $BeginBlock row28 -->
+	<paragraph position="relative" left="0" width="10" lineheight="8" fontsize="8" textalign="C" border="1">${matricola}</paragraph>
+	<paragraph position="relative" left="10" top="-8" width="48" lineheight="8" fontsize="8" textalign="C" border="1">${cognome} ${nome}</paragraph>
+	<paragraph position="relative" left="10+48" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1">${tipo socio}</paragraph>
+	<paragraph position="relative" left="10+48+35" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35" top="-8" width="18" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35+18" top="-8" width="46" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+<!-- $EndBlock row28 -->
+
+<!-- $BeginBlock row29 -->
+	<paragraph position="relative" left="0" width="10" lineheight="8" fontsize="8" textalign="C" border="1">${matricola}</paragraph>
+	<paragraph position="relative" left="10" top="-8" width="48" lineheight="8" fontsize="8" textalign="C" border="1">${cognome} ${nome}</paragraph>
+	<paragraph position="relative" left="10+48" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1">${tipo socio}</paragraph>
+	<paragraph position="relative" left="10+48+35" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35" top="-8" width="18" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35+18" top="-8" width="46" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+<!-- $EndBlock row29 -->
+
+<!-- $BeginBlock row30 -->
+	<paragraph position="relative" left="0" width="10" lineheight="8" fontsize="8" textalign="C" border="1">${matricola}</paragraph>
+	<paragraph position="relative" left="10" top="-8" width="48" lineheight="8" fontsize="8" textalign="C" border="1">${cognome} ${nome}</paragraph>
+	<paragraph position="relative" left="10+48" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1">${tipo socio}</paragraph>
+	<paragraph position="relative" left="10+48+35" top="-8" width="35" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35" top="-8" width="18" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+	<paragraph position="relative" left="10+48+35+35+18" top="-8" width="46" lineheight="8" fontsize="7" textalign="C" border="1"> </paragraph>
+<!-- $EndBlock row30 -->
+
+
+
+<paragraph position="absolute" left="0" width="180" top="279" lineheight="4" fontsize="6" textalign="R" border="0">Data/ora stampa: ${data/ora applicazione modello}
+</paragraph>
+
+
+<paragraph position="absolute" left="0" width="180" top="279" lineheight="4" fontsize="7" textalign="C" border="0"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --> <!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --> - Organizzazione di Volontariato
+Codice Fiscale: <!-- $Include var/templates/it/03-Codice_Fiscale.txt -->
+<!-- $Include var/templates/it/04-Indirizzo_1.txt --> - <!-- $Include var/templates/it/05-Indirizzo_2.txt --></paragraph>
+
+</page>
+<!-- $EndBlock table-->
+
+</body>
+</pdf>

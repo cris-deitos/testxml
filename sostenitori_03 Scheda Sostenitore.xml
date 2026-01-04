@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+
+<pdf creator="GestionaleWeb" title="Scheda Sostenitore">
+<body format='A4' unit='mm' marginleft='15' marginbottom='0'>
+
+<!-- 85x54 -->
+<!-- $BeginBlock form -->
+<page>
+	<image top="10" left="15" height="15" width="15" position="absolute" file="<!-- $Include var/templates/it/logo.txt -->" />
+	<paragraph top="10" left="33" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --></paragraph>
+	<paragraph top="15" left="33" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>
+	<paragraph top="20" left="33" fontcolor="red" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L">Scheda Sostenitore</paragraph>
+	
+	<paragraph position="absolute" left="155" top="10" width="40" fontsize="10" lineheight="5" textalign="C" border="1">ANNO TESSERA:
+
+${anno tessera}</paragraph>
+	
+	<paragraph position="absolute" top="37" left="15" width="180" fontsize="11" fontstyle="B" border="0" textalign="C">DATI ANAGRAFICI</paragraph>
+	
+	<paragraph position="absolute" top="46" left="15" width="21" fontsize="9" border="0" textalign="L">N. TESSERA:</paragraph>
+	<paragraph position="absolute" top="46" left="36" width="16" fontsize="9" fontstyle="B" border="1" textalign="C">${numero tessera}</paragraph>
+	<paragraph position="absolute" top="46" left="52" width="20" fontsize="9" border="0" textalign="C">COGNOME:</paragraph>
+	<paragraph position="absolute" top="46" left="72" width="55" fontsize="9" fontstyle="B" border="1" textalign="C">${cognome}</paragraph>
+	<paragraph position="absolute" top="46" left="127" width="13" fontsize="9" border="0" textalign="C">NOME:</paragraph>
+	<paragraph position="absolute" top="46" left="140" width="55" fontsize="9" fontstyle="B" border="1" textalign="C">${nome}</paragraph>
+	
+	<paragraph position="absolute" top="53" left="15" width="15" fontsize="9" border="0" textalign="L">SESSO:</paragraph>
+	<paragraph position="absolute" top="53" left="30" width="20" fontsize="9" border="1" textalign="C">${sesso}</paragraph>
+	<paragraph position="absolute" top="53" left="50" width="18" fontsize="9" border="0" textalign="C">NATO A:</paragraph>
+	<paragraph position="absolute" top="53" left="68" width="85" fontsize="9" border="1" textalign="C">${luogo di nascita} (${provincia di nascita})</paragraph>
+	<paragraph position="absolute" top="53" left="153" width="10" fontsize="9" border="0" textalign="C">IL:</paragraph>
+	<paragraph position="absolute" top="53" left="163" width="32" fontsize="9" border="1" textalign="C">${data di nascita}</paragraph>
+	
+	<paragraph position="absolute" top="60" left="15" width="30" fontsize="9" border="0" textalign="L">CODICE FISCALE:</paragraph>
+	<paragraph position="absolute" top="60" left="45" width="78" fontsize="9" border="1" textalign="C">${codice fiscale}</paragraph>
+	<paragraph position="absolute" top="60" left="123" width="40" fontsize="9" border="0" textalign="C">CONTRIBUTO ANNUALE:</paragraph>
+	<paragraph position="absolute" top="60" left="163" width="32" fontsize="9" border="1" textalign="C">${contributo annuale} Euro</paragraph>	
+
+	
+	
+	<paragraph position="absolute" top="75" left="15" width="180" fontsize="11" fontstyle="B" border="0" textalign="C">INFORMAZIONI PERSONALI</paragraph>
+	
+	<paragraph position="absolute" top="84" left="15" width="22" fontsize="9" border="0" textalign="L">INDIRIZZO:</paragraph>
+	<paragraph position="absolute" top="84" left="37" width="125" fontsize="9" border="1" textalign="C">${indirizzo di residenza}</paragraph>
+	<paragraph position="absolute" top="84" left="162" width="15" fontsize="9" border="0" textalign="C">CAP:</paragraph>
+	<paragraph position="absolute" top="84" left="177" width="18" fontsize="9" border="1" textalign="C">${cap di residenza}</paragraph>
+
+	<paragraph position="absolute" top="91" left="15" width="22" fontsize="9" border="0" textalign="L">COMUNE:</paragraph>
+	<paragraph position="absolute" top="91" left="37" width="64" fontsize="9" border="1" textalign="C">${comune di residenza}</paragraph>
+	<paragraph position="absolute" top="91" left="101" width="15" fontsize="9" border="0" textalign="C">PROV.:</paragraph>
+	<paragraph position="absolute" top="91" left="116" width="15" fontsize="9" border="1" textalign="C">${provincia di residenza}</paragraph>
+	<paragraph position="absolute" top="91" left="131" width="34" fontsize="9" border="0" textalign="C">TELEFONO FISSO:</paragraph>
+	<paragraph position="absolute" top="91" left="165" width="30" fontsize="9" border="1" textalign="C">${telefono fisso}</paragraph>
+	
+	<paragraph position="absolute" top="98" left="15" width="22" fontsize="9" border="0" textalign="L">CELLULARE:</paragraph>
+	<paragraph position="absolute" top="98" left="37" width="30" fontsize="9" border="1" textalign="C">${cellulare}</paragraph>
+	<paragraph position="absolute" top="98" left="67" width="20" fontsize="9" border="0" textalign="C">E-MAIL:</paragraph>
+	<paragraph position="absolute" top="98" left="87" width="108" fontsize="9" border="1" textalign="C">${e-mail}</paragraph>
+	
+	<paragraph position="absolute" top="113" left="15" width="180" fontsize="11" fontstyle="B" border="0" textalign="C">Autorizzazione al Trattamento dei Dati Personali per Uso Interno</paragraph>
+	<paragraph position="absolute" top="122" left="15" width="180" fontsize="9" border="1" textalign="C">${AUTORIZZAZIONE TRATTAMENTO DATI INTERNO}</paragraph>
+	
+	<paragraph position="absolute" top="137" left="15" width="180" fontsize="11" fontstyle="B" border="0" textalign="C">Autorizzazione al Trattamento dei Dati Personali per Usi Commerciali e di Marketing</paragraph>
+	<paragraph position="absolute" top="146" left="15" width="180" fontsize="9" border="1" textalign="C">${AUTORIZZAZ. TRATTAMENTO DATI MARKETING}</paragraph>
+	
+	<paragraph position="absolute" top="161" left="15" width="180" fontsize="11" fontstyle="B" border="0" textalign="C">NOTE</paragraph>
+	<paragraph position="absolute" top="170" left="15" width="180" fontsize="9" border="1" textalign="L">${note}</paragraph>		
+	
+	<barcode y="255" x="15" height="5" width=".3" position="absolute" barcode="${numero tessera}" norm="code39extend" />		
+	
+	<paragraph position="absolute" top="277" left="15" width="180" lineheight="5" fontsize="6" textalign="R" border="0">Data e Ora Stampa: ${data/ora applicazione modello}</paragraph>	
+</page>
+
+<!-- $EndBlock form -->
+<!-- $BeginBlock table -->
+<page fontsize="10">
+<!-- $BeginBlock row1 -->
+	<image top="10" left="15" height="15" width="15" position="absolute" file="<!-- $Include var/templates/it/logo.txt -->" />
+	<paragraph top="10" left="33" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --></paragraph>
+	<paragraph top="15" left="33" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>
+	<paragraph top="20" left="33" fontcolor="red" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L">Scheda Sostenitore</paragraph>
+	
+	<paragraph position="absolute" left="155" top="10" width="40" fontsize="10" lineheight="5" textalign="C" border="1">ANNO TESSERA:
+
+${anno tessera}</paragraph>
+	
+	<paragraph position="absolute" top="37" left="15" width="180" fontsize="11" fontstyle="B" border="0" textalign="C">DATI ANAGRAFICI</paragraph>
+	
+	<paragraph position="absolute" top="46" left="15" width="21" fontsize="9" border="0" textalign="L">N. TESSERA:</paragraph>
+	<paragraph position="absolute" top="46" left="36" width="16" fontsize="9" fontstyle="B" border="1" textalign="C">${numero tessera}</paragraph>
+	<paragraph position="absolute" top="46" left="52" width="20" fontsize="9" border="0" textalign="C">COGNOME:</paragraph>
+	<paragraph position="absolute" top="46" left="72" width="55" fontsize="9" fontstyle="B" border="1" textalign="C">${cognome}</paragraph>
+	<paragraph position="absolute" top="46" left="127" width="13" fontsize="9" border="0" textalign="C">NOME:</paragraph>
+	<paragraph position="absolute" top="46" left="140" width="55" fontsize="9" fontstyle="B" border="1" textalign="C">${nome}</paragraph>
+	
+	<paragraph position="absolute" top="53" left="15" width="15" fontsize="9" border="0" textalign="L">SESSO:</paragraph>
+	<paragraph position="absolute" top="53" left="30" width="20" fontsize="9" border="1" textalign="C">${sesso}</paragraph>
+	<paragraph position="absolute" top="53" left="50" width="18" fontsize="9" border="0" textalign="C">NATO A:</paragraph>
+	<paragraph position="absolute" top="53" left="68" width="85" fontsize="9" border="1" textalign="C">${luogo di nascita} (${provincia di nascita})</paragraph>
+	<paragraph position="absolute" top="53" left="153" width="10" fontsize="9" border="0" textalign="C">IL:</paragraph>
+	<paragraph position="absolute" top="53" left="163" width="32" fontsize="9" border="1" textalign="C">${data di nascita}</paragraph>
+	
+	<paragraph position="absolute" top="60" left="15" width="30" fontsize="9" border="0" textalign="L">CODICE FISCALE:</paragraph>
+	<paragraph position="absolute" top="60" left="45" width="78" fontsize="9" border="1" textalign="C">${codice fiscale}</paragraph>
+	<paragraph position="absolute" top="60" left="123" width="40" fontsize="9" border="0" textalign="C">CONTRIBUTO ANNUALE:</paragraph>
+	<paragraph position="absolute" top="60" left="163" width="32" fontsize="9" border="1" textalign="C">${contributo annuale} Euro</paragraph>	
+
+	
+	
+	<paragraph position="absolute" top="75" left="15" width="180" fontsize="11" fontstyle="B" border="0" textalign="C">INFORMAZIONI PERSONALI</paragraph>
+	
+	<paragraph position="absolute" top="84" left="15" width="22" fontsize="9" border="0" textalign="L">INDIRIZZO:</paragraph>
+	<paragraph position="absolute" top="84" left="37" width="125" fontsize="9" border="1" textalign="C">${indirizzo di residenza}</paragraph>
+	<paragraph position="absolute" top="84" left="162" width="15" fontsize="9" border="0" textalign="C">CAP:</paragraph>
+	<paragraph position="absolute" top="84" left="177" width="18" fontsize="9" border="1" textalign="C">${cap di residenza}</paragraph>
+
+	<paragraph position="absolute" top="91" left="15" width="22" fontsize="9" border="0" textalign="L">COMUNE:</paragraph>
+	<paragraph position="absolute" top="91" left="37" width="64" fontsize="9" border="1" textalign="C">${comune di residenza}</paragraph>
+	<paragraph position="absolute" top="91" left="101" width="15" fontsize="9" border="0" textalign="C">PROV.:</paragraph>
+	<paragraph position="absolute" top="91" left="116" width="15" fontsize="9" border="1" textalign="C">${provincia di residenza}</paragraph>
+	<paragraph position="absolute" top="91" left="131" width="34" fontsize="9" border="0" textalign="C">TELEFONO FISSO:</paragraph>
+	<paragraph position="absolute" top="91" left="165" width="30" fontsize="9" border="1" textalign="C">${telefono fisso}</paragraph>
+	
+	<paragraph position="absolute" top="98" left="15" width="22" fontsize="9" border="0" textalign="L">CELLULARE:</paragraph>
+	<paragraph position="absolute" top="98" left="37" width="30" fontsize="9" border="1" textalign="C">${cellulare}</paragraph>
+	<paragraph position="absolute" top="98" left="67" width="20" fontsize="9" border="0" textalign="C">E-MAIL:</paragraph>
+	<paragraph position="absolute" top="98" left="87" width="108" fontsize="9" border="1" textalign="C">${e-mail}</paragraph>
+	
+	<paragraph position="absolute" top="113" left="15" width="180" fontsize="11" fontstyle="B" border="0" textalign="C">Autorizzazione al Trattamento dei Dati Personali per Uso Interno</paragraph>
+	<paragraph position="absolute" top="122" left="15" width="180" fontsize="9" border="1" textalign="C">${AUTORIZZAZIONE TRATTAMENTO DATI INTERNO}</paragraph>
+	
+	<paragraph position="absolute" top="137" left="15" width="180" fontsize="11" fontstyle="B" border="0" textalign="C">Autorizzazione al Trattamento dei Dati Personali per Usi Commerciali e di Marketing</paragraph>
+	<paragraph position="absolute" top="146" left="15" width="180" fontsize="9" border="1" textalign="C">${AUTORIZZAZ. TRATTAMENTO DATI MARKETING}</paragraph>
+	
+	<paragraph position="absolute" top="161" left="15" width="180" fontsize="11" fontstyle="B" border="0" textalign="C">NOTE</paragraph>
+	<paragraph position="absolute" top="170" left="15" width="180" fontsize="9" border="1" textalign="L">${note}</paragraph>		
+	
+	<barcode y="255" x="15" height="5" width=".3" position="absolute" barcode="${numero tessera}" norm="code39extend" />		
+	
+	<paragraph position="absolute" top="260" left="15" width="180" lineheight="5" fontsize="6" textalign="R" border="0">
+Data e Ora Stampa: ${data/ora applicazione modello}
+</paragraph>	
+<!-- $EndBlock row1 -->
+
+<paragraph position="absolute" left="0" width="180" top="271" lineheight="5" fontsize="8" textalign="C" border="0" fontstyle="B"><!-- $Include var/templates/it/01-Nome_Prima_Riga.txt --> <!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --> - Organizzazione di Volontariato</paragraph>
+
+<paragraph position="absolute" left="0" width="180" top="276" lineheight="4" fontsize="7" textalign="C" border="0">Codice Fiscale: <!-- $Include var/templates/it/03-Codice_Fiscale.txt -->
+<!-- $Include var/templates/it/04-Indirizzo_1.txt --> - <!-- $Include var/templates/it/05-Indirizzo_2.txt -->
+Sito Web: <!-- $Include var/templates/it/07-Indirizzo_Web.txt --> - Indirizzo E-Mail: <!-- $Include var/templates/it/08-Indirizzo_eMail.txt --></paragraph>
+
+</page>
+<!-- $EndBlock table-->
+
+</body>
+</pdf>
