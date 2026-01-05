@@ -18,7 +18,7 @@
 	<paragraph top="20" left="38" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L"><!-- $Include var/templates/it/02-Nome_Seconda_Riga.txt --></paragraph>
 	<paragraph top="25" left="38" fontcolor="red" fontsize="12" fontstyle="B" position="absolute" border="0" width="150" textalign="L">Elenco Check List Mezzi</paragraph>
 
-	<paragraph position="absolute" left="135" top="15" width="60" fontsize="6" lineheight="5" textalign="L" border="1">Totale Check List: ${totale righe tabella}
+	<paragraph position="absolute" left="135" top="15" width="60" fontsize="6" lineheight="5" textalign="L" border="1">Totale Check List: ${totale check list}
 Note:
 
 </paragraph>
