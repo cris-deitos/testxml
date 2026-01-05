@@ -191,13 +191,13 @@
 
 	<paragraph position="absolute" top="232" left="15" width="180" fontsize="11" fontstyle="B" border="0" textalign="C">NOTE, ANOMALIE E DANNI RISCONTRATI</paragraph>
 	
-	<paragraph position="absolute" top="242" left="15" width="180" height="10" fontsize="9" border="1" textalign="L">${note anomalie rientro}</paragraph>		
+	<paragraph position="absolute" top="242" left="15" width="180" height="20" fontsize="9" border="1" textalign="L">${note anomalie rientro}</paragraph>		
 	
 	
-	<paragraph position="absolute" top="257" left="15" width="80" fontsize="9" border="0" textalign="L">FIRMA AUTISTA:</paragraph>
-	<paragraph position="absolute" top="257" left="95" width="100" fontsize="9" border="1" textalign="C">_____________________________</paragraph>
+	<paragraph position="absolute" top="267" left="15" width="80" fontsize="9" border="0" textalign="L">FIRMA AUTISTA:</paragraph>
+	<paragraph position="absolute" top="267" left="95" width="100" fontsize="9" border="1" textalign="C">_____________________________</paragraph>
 	
-	<paragraph position="absolute" top="260" left="15" width="180" lineheight="5" fontsize="6" textalign="R" border="0">Data e Ora Stampa: ${data/ora applicazione modello}</paragraph>
+	<paragraph position="absolute" top="274" left="15" width="180" lineheight="5" fontsize="6" textalign="R" border="0">Data e Ora Stampa: ${data/ora applicazione modello}</paragraph>
 
 <!-- $EndBlock row1 -->
 
